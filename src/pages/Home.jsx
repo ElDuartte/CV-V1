@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import About from "../components/About";
 
-import "./styles/Home.css";
+import "./styles/Home.scss";
 
 const Home = () => {
 	const titleAbout = useRef();

@@ -2,7 +2,7 @@ import React from "react";
 
 import pdf from "../docs/juan-felipe-duarte.pdf";
 
-import "./styles/About.css";
+import "./styles/About.scss";
 
 const About = () => (
 	<main className="about" id="about">
@@ -13,7 +13,7 @@ const About = () => (
 				Soy Juan Felipe Duarte un joven web developer autodidacta enfocado en el
 				Front-end. En busqueda de nuevas experiencias, que me permitan poner en
 				práctica mis conocimientos en React, JavaScript, HTML5 y Sass
-				implementando diseños con Responsive desing.
+				implementando diseños con Responsive design.
 			</p>
 			<br />
 			<div className="container-contacto__about">
