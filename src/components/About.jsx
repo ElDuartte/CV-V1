@@ -2,8 +2,6 @@ import React from "react";
 
 import pdf from "../docs/juan-felipe-duarte.pdf";
 
-import "./styles/About.scss";
-
 const About = () => (
 	<main className="about" id="about">
 		<div className="container-about">

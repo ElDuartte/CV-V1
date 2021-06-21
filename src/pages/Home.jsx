@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import About from "../components/About";
 
-import "./styles/Home.scss";
+import "../scss/main.scss";
 
 const Home = () => {
 	const titleAbout = useRef();
@@ -13,21 +13,29 @@ const Home = () => {
 
 	return (
 		<div>
-			<header className="container">
-				<h1>
-					Hola. <br /> Soy Juan Felipe
-				</h1>
-				<span className="secondSentence">
-					<h2>Front-end Developer viviendo en Madrid</h2>
-				</span>
+			<div className="container">
+				<section className="one">
+					<span>
+						<h1>
+							Hola. <br /> Soy Juan Felipe
+						</h1>
+						<span className="secondSentence">
+							<h2>Front-end Developer viviendo en Madrid</h2>
+						</span>
+					</span>
+					<div className="btn-holder">
+						<button
+							onClick={handleBackClick}
+							className="fas fa-angle-down scrollDown-button"
+						></button>
+					</div>
+				</section>
 
-				<button
-					onClick={handleBackClick}
-					className="fas fa-angle-down scrollDown-button"
-				></button>
-			</header>
-			<div ref={titleAbout}>
-				<About />
+				<section className="two">
+					<div ref={titleAbout}>
+						<About />
+					</div>
+				</section>
 			</div>
 		</div>
 	);

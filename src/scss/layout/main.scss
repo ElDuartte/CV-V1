@@ -1,0 +1,44 @@
+/*--------------------------------*\
+|  MAIN
+\*--------------------------------*/
+
+
+.one {
+	padding: 15% 20% 0% 20%;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: space-between;
+}
+
+.two {
+	background-color: $color-second;
+}
+
+.container {
+	scroll-snap-type: y mandatory;
+	overflow-y: scroll;
+	height: 100vh;
+}
+
+
+.btn-holder {
+	display: grid;
+	place-items: center;
+	padding-bottom: 5%;
+}
+
+.scrollDown-button {
+	background-color: $color-main;
+	color: #fff;
+	height: 42px;
+	width: 42px;
+	font-size: 42px;
+	border-radius: 100%;
+	border: none;
+}
+
+.scrollDown-button:hover {
+	cursor: pointer;
+}
+

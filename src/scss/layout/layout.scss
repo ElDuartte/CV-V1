@@ -1,0 +1,33 @@
+/*--------------------------------*\
+|  ELEMENTS
+\*--------------------------------*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $color-main;
+	color: white;
+}
+
+h1 {
+	font-family: $font-titles;
+	font-weight: 900;
+	font-size: 5rem;
+	line-height: 1em;
+}
+
+h2 {
+	font-family: $font-text;
+	font-size: 1.7rem;
+	line-height: 3em;
+}
+
+section {
+	height: 100vh;
+	scroll-snap-align: start;
+}

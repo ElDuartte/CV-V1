@@ -1,31 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Shadows+Into+Light&display=swap");
-
-/* Texto normal  font-family: 'Rajdhani', sans-serif;*/
-/* Texto alt1 font-family: 'Shadows Into Light', cursive; */
-
-/* Main  */
-
-main {
-	height: 100vh;
-	width: 100%;
-	background-color: #ececec;
-}
+/*--------------------------------*\
+| layout-about__section
+\*--------------------------------*/
 
 .about {
-	/* height: 50vh;
-	width: 100%; */
-	color: #181818;
+	color: $color-main;
 }
 
 .about h3 {
-	font-family: "Rajdhani", sans-serif;
+	font-family: $font-titles;
 	font-weight: 900;
 	font-size: 3rem;
 	line-height: 1em;
 }
 
 .about p {
-	font-family: "Shadows Into Light", cursive;
+	font-family: $font-text;
 	font-size: 2rem;
 }
 
@@ -50,7 +39,7 @@ main {
 }
 
 .containerButton p {
-	font-family: "Rajdhani", sans-serif;
+	font-family: $font-titles;
 	font-weight: 900;
 	font-size: 2.5rem;
 	line-height: 1em;
@@ -61,10 +50,10 @@ main {
 .link-Btn {
 	padding: 15px 25px;
 	border-radius: 10px;
-	background-color: #181818;
-	color: #fff;
+	background-color: $color-main;
+	color: $color-second;
 	text-decoration: none;
-	font-family: "Rajdhani", sans-serif;
+	font-family: $font-titles;
 	font-size: 1.5rem;
 	line-height: 1rem;
 	cursor: pointer;
