@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/portafolio-V1/static/css/main.fb35577d.chunk.css",
-    "main.js": "/portafolio-V1/static/js/main.f97d90a3.chunk.js",
-    "main.js.map": "/portafolio-V1/static/js/main.f97d90a3.chunk.js.map",
+    "main.css": "/portafolio-V1/static/css/main.4114c4e8.chunk.css",
+    "main.js": "/portafolio-V1/static/js/main.db097a5e.chunk.js",
+    "main.js.map": "/portafolio-V1/static/js/main.db097a5e.chunk.js.map",
     "runtime-main.js": "/portafolio-V1/static/js/runtime-main.9261a84c.js",
     "runtime-main.js.map": "/portafolio-V1/static/js/runtime-main.9261a84c.js.map",
-    "static/js/2.382a6469.chunk.js": "/portafolio-V1/static/js/2.382a6469.chunk.js",
-    "static/js/2.382a6469.chunk.js.map": "/portafolio-V1/static/js/2.382a6469.chunk.js.map",
+    "static/js/2.a5c9120f.chunk.js": "/portafolio-V1/static/js/2.a5c9120f.chunk.js",
+    "static/js/2.a5c9120f.chunk.js.map": "/portafolio-V1/static/js/2.a5c9120f.chunk.js.map",
     "index.html": "/portafolio-V1/index.html",
-    "static/css/main.fb35577d.chunk.css.map": "/portafolio-V1/static/css/main.fb35577d.chunk.css.map",
-    "static/js/2.382a6469.chunk.js.LICENSE.txt": "/portafolio-V1/static/js/2.382a6469.chunk.js.LICENSE.txt",
-    "static/media/juan-felipe-duarte.8b892d87.pdf": "/portafolio-V1/static/media/juan-felipe-duarte.8b892d87.pdf"
+    "static/css/main.4114c4e8.chunk.css.map": "/portafolio-V1/static/css/main.4114c4e8.chunk.css.map",
+    "static/js/2.a5c9120f.chunk.js.LICENSE.txt": "/portafolio-V1/static/js/2.a5c9120f.chunk.js.LICENSE.txt",
+    "static/media/juan-felipe-duarte.8b892d87.pdf": "/portafolio-V1/static/media/juan-felipe-duarte.8b892d87.pdf",
+    "static/media/logo-git.3f235fe7.png": "/portafolio-V1/static/media/logo-git.3f235fe7.png",
+    "static/media/logo-html5.c98e7e02.png": "/portafolio-V1/static/media/logo-html5.c98e7e02.png",
+    "static/media/logo-javascript.237cd48c.png": "/portafolio-V1/static/media/logo-javascript.237cd48c.png",
+    "static/media/logo-react.68f1d992.png": "/portafolio-V1/static/media/logo-react.68f1d992.png",
+    "static/media/logo-sass.57b8ba81.png": "/portafolio-V1/static/media/logo-sass.57b8ba81.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9261a84c.js",
-    "static/js/2.382a6469.chunk.js",
-    "static/css/main.fb35577d.chunk.css",
-    "static/js/main.f97d90a3.chunk.js"
+    "static/js/2.a5c9120f.chunk.js",
+    "static/css/main.4114c4e8.chunk.css",
+    "static/js/main.db097a5e.chunk.js"
   ]
 }
