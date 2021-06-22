@@ -4,7 +4,7 @@ import pdf from "../docs/juan-felipe-duarte.pdf";
 
 const About = () => (
 	<main className="about" id="about">
-		<div className="container-about">
+		<div className="inner-container">
 			<h3>Acerca de mi</h3>
 			<br />
 			<p>

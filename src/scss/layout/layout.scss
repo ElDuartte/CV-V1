@@ -27,7 +27,23 @@ h2 {
 	line-height: 3em;
 }
 
+h3 {
+	font-family: $font-titles;
+	font-weight: 900;
+	font-size: 3rem;
+	line-height: 1em;
+}
+
 section {
 	height: 100vh;
 	scroll-snap-align: start;
+}
+
+p {
+	font-family: $font-text;
+	font-size: 2rem;
+}
+
+.inner-container{
+	padding: 5% 20% 0% 20%;
 }

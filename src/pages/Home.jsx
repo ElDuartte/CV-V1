@@ -1,5 +1,7 @@
 import React, { useRef } from "react";
+
 import About from "../components/About";
+import Education from "../components/Education";
 
 import "../scss/main.scss";
 
@@ -35,6 +37,10 @@ const Home = () => {
 					<div ref={titleAbout}>
 						<About />
 					</div>
+				</section>
+
+				<section className="three">
+					<Education/>
 				</section>
 			</div>
 		</div>
