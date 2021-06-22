@@ -2,7 +2,6 @@
 |  MAIN
 \*--------------------------------*/
 
-
 .one {
 	padding: 15% 20% 0% 20%;
 	display: flex;
@@ -15,12 +14,20 @@
 	background-color: $color-second;
 }
 
+.three {
+	background-color: $color-main;
+}
+
+.four {
+	background-color: $color-second;
+	color: $color-main;
+}
+
 .container {
 	scroll-snap-type: y mandatory;
 	overflow-y: scroll;
 	height: 100vh;
 }
-
 
 .btn-holder {
 	display: grid;
@@ -41,4 +48,3 @@
 .scrollDown-button:hover {
 	cursor: pointer;
 }
-
