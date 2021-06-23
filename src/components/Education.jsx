@@ -7,9 +7,11 @@ import logoGit from "../media/logo-git.png";
 import logoHtml from "../media/logo-html5.png";
 
 const Education = () => (
-	<div>
+	<div className="inner-container">
+		<br />
+		<br />
+		<h3>Tecnologías:</h3>
 		<div className="grid-container">
-			<h3>Tecnologías:</h3>
 			<div className="gridImage-container">
 				<img className="logoEdu" src={logoReact} alt="Logo React" />
 			</div>

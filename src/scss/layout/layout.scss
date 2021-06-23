@@ -11,6 +11,7 @@
 body {
 	background-color: $color-main;
 	color: white;
+	scroll-behavior: smooth;
 }
 
 h1 {
@@ -41,7 +42,7 @@ h4 {
 }
 
 section {
-	height: 100vh;
+	min-height: 100vh;
 	scroll-snap-align: start;
 }
 

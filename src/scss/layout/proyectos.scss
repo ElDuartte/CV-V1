@@ -1,0 +1,15 @@
+.project-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: inherit;
+	width: inherit;
+}
+
+.projectImage {
+	background-color: #cc499c;
+	margin-right: 5%;
+	margin-top: 5%;
+	width: 400px;
+	height: 300px;
+}

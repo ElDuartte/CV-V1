@@ -1,7 +1,5 @@
 import React from "react";
 
-import Education from "./Education";
-
 const Experiencia = () => (
 	<div className="inner-container">
 		<div>
@@ -20,7 +18,6 @@ const Experiencia = () => (
 				</ul>
 			</div>
 		</div>
-		<Education />
 	</div>
 );
 

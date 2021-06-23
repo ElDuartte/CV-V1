@@ -11,7 +11,12 @@
 }
 
 .two {
-	background-color: $color-second;
+	// background-color: $color-second;
+	background-color: $color-main;
+}
+.about {
+	// color: $color-main;
+	color: $color-second;
 }
 
 .three {
@@ -19,12 +24,12 @@
 }
 
 .four {
-	background-color: $color-second;
-	color: $color-main;
+	background-color: $color-main;
+	color: $color-second;
 }
 
 .container {
-	scroll-snap-type: y mandatory;
+	scroll-snap-type: y proximity;
 	overflow-y: scroll;
 	height: 100vh;
 }
@@ -47,4 +52,5 @@
 
 .scrollDown-button:hover {
 	cursor: pointer;
+	color: #cfcfcffd;
 }

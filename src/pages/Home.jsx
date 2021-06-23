@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 
 import About from "../components/About";
 import Experiencia from "../components/Experiencia";
+import Proyectos from "../components/Proyectos";
 import Education from "../components/Education";
 
 import "../scss/main.scss";
@@ -44,9 +45,13 @@ const Home = () => {
 					<Experiencia />
 				</section>
 
-				{/* <section className="four">
+				<section className="four">
 					<Education />
-				</section> */}
+				</section>
+
+				<section className="four">
+					<Proyectos />
+				</section>
 			</div>
 		</div>
 	);

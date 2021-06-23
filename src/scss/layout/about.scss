@@ -2,10 +2,6 @@
 | layout-about__section
 \*--------------------------------*/
 
-.about {
-	color: $color-main;
-}
-
 .container-contacto__about {
 	margin-top: 10%;
 	display: flex;
@@ -34,8 +30,8 @@
 .link-Btn {
 	padding: 15px 25px;
 	border-radius: 10px;
-	background-color: $color-main;
-	color: $color-second;
+	background-color: $color-second;
+	color: $color-main;
 	text-decoration: none;
 	font-family: $font-titles;
 	font-size: 1.5rem;
@@ -45,5 +41,7 @@
 }
 
 .link-Btn:hover {
-	background-color: #181818a6;
+	// background-color: #181818a6;
+	color: $color-second;
+	background-color: #696969;
 }
