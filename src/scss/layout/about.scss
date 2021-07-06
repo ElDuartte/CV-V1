@@ -13,18 +13,14 @@
 }
 
 .containerButton {
-	margin-top: 5%;
-	margin-right: 5%;
-	display: block;
+	margin-top: 10%;
 }
 
-.containerButton p {
+.containerButton h4 {
 	font-family: $font-titles;
 	font-weight: 900;
-	font-size: 2.5rem;
-	line-height: 1em;
 	padding-right: 5%;
-	padding-bottom: 20%;
+	padding-bottom: 2rem;
 }
 
 .link-Btn {
@@ -35,9 +31,13 @@
 	text-decoration: none;
 	font-family: $font-titles;
 	font-size: 1.5rem;
-	line-height: 1rem;
+	line-height: 1.5rem;
 	cursor: pointer;
 	height: 3rem;
+	@media only screen and (max-width: $breakpoint-xSmall) {
+		font-size: 1rem;
+		line-height: 1rem;
+	}
 }
 
 .link-Btn:hover {

@@ -4,13 +4,21 @@
 $color-main: #181818;
 $color-second: white;
 
-
 /*--------------------------------*\
 | $FONTS
 \*--------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Shadows+Into+Light&display=swap");
 /* Texto normal  font-family: 'Rajdhani', sans-serif;*/
 /* Texto alt1 font-family: 'Shadows Into Light', cursive; */
-$font-titles:'Rajdhani', sans-serif;
-$font-text: 'Shadows Into Light', cursive; 
+$font-titles: "Rajdhani", sans-serif;
+$font-text: "Shadows Into Light", cursive;
 
+/*--------------------------------*\
+| $BREAKPOINTS  
+\*--------------------------------*/
+
+$breakpoint-xSmall: 0px;
+$breakpoint-small: 576px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 992px;
+$breakpoint-xLarge: 1200px;

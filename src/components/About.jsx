@@ -4,7 +4,7 @@ import pdf from "../docs/juanFelipeDuarte.pdf";
 
 const About = () => (
 	<main className="about" id="about">
-		<div className="inner-container">
+		<div>
 			<h3>Acerca de mi</h3>
 			<br />
 			<p>
@@ -23,7 +23,7 @@ const About = () => (
 				</div>
 
 				<div className="containerButton col">
-					<p>Currículum:</p>
+					<h4>Currículum:</h4>
 					<a
 						href={pdf}
 						target="_blank"

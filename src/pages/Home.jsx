@@ -16,8 +16,8 @@ const Home = () => {
 	}
 
 	return (
-		<div className="container-fluid">
-			<div>
+		<div>
+			<div className="container foot">
 				<section className="one">
 					<span>
 						<h1>
@@ -34,24 +34,26 @@ const Home = () => {
 						></button>
 					</div>
 				</section>
-
-				<section className="two">
+				<div ref={titleAbout}>
+					<About />
+				</div>
+				{/* <section className="two"> 
 					<div ref={titleAbout}>
 						<About />
 					</div>
-				</section>
-
-				<section className="three">
+				</section>*/}
+				<Experiencia />
+				{/* <section className="three">
 					<Experiencia />
-				</section>
-
-				<section className="four">
+				</section> */}
+				<Education />
+				{/* <section className="four">
 					<Education />
-				</section>
-
-				<section className="four">
+				</section> */}
+				<Proyectos />
+				{/* <section className="four">
 					<Proyectos />
-				</section>
+				</section> */}
 			</div>
 		</div>
 	);
