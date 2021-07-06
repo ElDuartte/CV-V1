@@ -2,25 +2,10 @@
 | layout-about__section
 \*--------------------------------*/
 
-.container-contacto__about {
-	margin-top: 10%;
-	display: flex;
-	justify-content: space-between;
-}
-
-.innerContainer-contacto {
-	padding-right: 5%;
-}
-
-.containerButton {
-	margin-top: 10%;
-}
-
-.containerButton h4 {
+.containerButton h3 {
 	font-family: $font-titles;
 	font-weight: 900;
 	padding-right: 5%;
-	padding-bottom: 2rem;
 }
 
 .link-Btn {

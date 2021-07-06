@@ -35,7 +35,6 @@ h2 {
 }
 
 h3 {
-	padding-top: 50px;
 	font-family: $font-titles;
 	font-weight: 900;
 	font-size: 3rem;
@@ -63,9 +62,9 @@ section {
 	// scroll-snap-align: start;
 }
 
-section .three {
-	height: 70vh;
-}
+// section .three {
+// 	height: 70vh;
+// }
 
 p {
 	font-family: $font-text;

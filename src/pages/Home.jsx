@@ -17,7 +17,7 @@ const Home = () => {
 
 	return (
 		<div>
-			<div className="container foot">
+			<div className="container">
 				<section className="one">
 					<span>
 						<h1>
@@ -34,26 +34,27 @@ const Home = () => {
 						></button>
 					</div>
 				</section>
-				<div ref={titleAbout}>
+
+				<section className="two" ref={titleAbout}>
 					<About />
-				</div>
-				{/* <section className="two"> 
-					<div ref={titleAbout}>
-						<About />
-					</div>
-				</section>*/}
-				<Experiencia />
-				{/* <section className="three">
+				</section>
+
+				<section className="three">
 					<Experiencia />
-				</section> */}
-				<Education />
-				{/* <section className="four">
+				</section>
+				<section className="four">
 					<Education />
-				</section> */}
-				<Proyectos />
-				{/* <section className="four">
+				</section>
+				<section className="four">
 					<Proyectos />
-				</section> */}
+				</section>
+				<div className="foot"></div>
+				{/* <div ref={titleAbout}>
+					<About />
+				</div> */}
+				{/* <Experiencia /> */}
+				{/* <Education /> */}
+				{/* <Proyectos /> */}
 			</div>
 		</div>
 	);

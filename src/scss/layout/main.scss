@@ -13,19 +13,22 @@
 .two {
 	// background-color: $color-second;
 	background-color: $color-main;
+	padding-top: 10%;
 }
-.about {
-	// color: $color-main;
-	color: $color-second;
-}
+// .about {
+// 	// color: $color-main;
+// 	color: $color-second;
+// }
 
 .three {
 	background-color: $color-main;
+	padding-top: 10%;
 }
 
 .four {
 	background-color: $color-main;
 	color: $color-second;
+	padding-top: 10%;
 }
 
 .container {
@@ -33,7 +36,7 @@
 }
 
 .foot {
-	margin-bottom: 50px;
+	height: 10vh;
 }
 
 .btn-holder {

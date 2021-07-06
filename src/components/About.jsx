@@ -14,16 +14,16 @@ const About = () => (
 				implementando diseños con Responsive design.
 			</p>
 			<br />
-			<div className="container-contacto__about row mb-5">
-				<div className="innerContainer-contacto col">
+			<div className="row mb-5">
+				<div className="col">
 					<h3>Contacto</h3>
 					<p>
 						Juan Felipe Duarte <br /> Madrid, 28032 <br /> jf@duartte.co
 					</p>
 				</div>
 
-				<div className="containerButton col">
-					<h4>Currículum:</h4>
+				<div className="col">
+					<h3>Currículum:</h3>
 					<a
 						href={pdf}
 						target="_blank"
