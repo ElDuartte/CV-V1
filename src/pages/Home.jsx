@@ -38,7 +38,7 @@ const Home = () => {
 				<section className="two" ref={titleAbout}>
 					<About />
 				</section>
-
+				<br />
 				<section className="three">
 					<Experiencia />
 				</section>

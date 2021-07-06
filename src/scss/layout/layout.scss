@@ -58,13 +58,9 @@ h4 {
 }
 
 section {
-	height: 100vh;
+	min-height: 100vh;
 	// scroll-snap-align: start;
 }
-
-// section .three {
-// 	height: 70vh;
-// }
 
 p {
 	font-family: $font-text;
