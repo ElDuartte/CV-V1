@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portafolio-V1/static/css/main.7c3b7f87.chunk.css",
-    "main.js": "/portafolio-V1/static/js/main.142778da.chunk.js",
-    "main.js.map": "/portafolio-V1/static/js/main.142778da.chunk.js.map",
+    "main.js": "/portafolio-V1/static/js/main.c585f591.chunk.js",
+    "main.js.map": "/portafolio-V1/static/js/main.c585f591.chunk.js.map",
     "runtime-main.js": "/portafolio-V1/static/js/runtime-main.ebfb0a45.js",
     "runtime-main.js.map": "/portafolio-V1/static/js/runtime-main.ebfb0a45.js.map",
     "static/js/2.ecb5e1b1.chunk.js": "/portafolio-V1/static/js/2.ecb5e1b1.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/portafolio-V1/index.html",
     "static/css/main.7c3b7f87.chunk.css.map": "/portafolio-V1/static/css/main.7c3b7f87.chunk.css.map",
     "static/js/2.ecb5e1b1.chunk.js.LICENSE.txt": "/portafolio-V1/static/js/2.ecb5e1b1.chunk.js.LICENSE.txt",
-    "static/media/juanFelipeDuarte.a67eb80b.pdf": "/portafolio-V1/static/media/juanFelipeDuarte.a67eb80b.pdf",
+    "static/media/juanFelipeDuarte.bcbc4482.pdf": "/portafolio-V1/static/media/juanFelipeDuarte.bcbc4482.pdf",
     "static/media/logo-git.3f235fe7.png": "/portafolio-V1/static/media/logo-git.3f235fe7.png",
     "static/media/logo-html5.c98e7e02.png": "/portafolio-V1/static/media/logo-html5.c98e7e02.png",
     "static/media/logo-javascript.237cd48c.png": "/portafolio-V1/static/media/logo-javascript.237cd48c.png",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.ebfb0a45.js",
     "static/js/2.ecb5e1b1.chunk.js",
     "static/css/main.7c3b7f87.chunk.css",
-    "static/js/main.142778da.chunk.js"
+    "static/js/main.c585f591.chunk.js"
   ]
 }
