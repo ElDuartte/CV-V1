@@ -5,15 +5,15 @@ const Experiencia = () => (
 		<div>
 			<h3>Experiencia</h3>
 			<div className="text-container">
-				<h4>Desarollador Front-end</h4>
+				<h4>Desarrollador Front-end</h4>
 				<br />
 				<ul>
 					<li>Noviembre 2020 - Actualidad</li>
 					<li>
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-						adipisci culpa explicabo veniam, ab perferendis, maxime doloribus
-						ipsam aliquam sed voluptas dolorem. Omnis consequatur accusamus
-						illum nobis. Necessitatibus, libero consequuntur!
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut
+						voluptatibus, iste, a eius veniam enim temporibus sapiente minus ab
+						maiores rerum. Perferendis repellendus tempora quibusdam quas fuga
+						ab veniam quis.
 					</li>
 				</ul>
 			</div>

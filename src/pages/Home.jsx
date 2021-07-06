@@ -16,8 +16,8 @@ const Home = () => {
 	}
 
 	return (
-		<div>
-			<div className="container">
+		<div className="container-fluid">
+			<div>
 				<section className="one">
 					<span>
 						<h1>

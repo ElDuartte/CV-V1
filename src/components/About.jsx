@@ -8,8 +8,8 @@ const About = () => (
 			<h3>Acerca de mi</h3>
 			<br />
 			<p>
-				Soy Juan Felipe Duarte un joven web developer autodidacta enfocado en el
-				Front-end. En busqueda de nuevas experiencias, que me permitan poner en
+				Soy Juan Felipe Duarte, un joven web developer autodidacta enfocado en el
+				Front-end. En búsqueda de nuevas experiencias, que me permitan poner en
 				práctica mis conocimientos en React, JavaScript, HTML5 y Sass
 				implementando diseños con Responsive design.
 			</p>
