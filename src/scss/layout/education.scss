@@ -2,25 +2,30 @@
 	margin-top: 10%;
 	width: 300px;
 	height: 300px;
-	@media only screen and (max-width: $breakpoint-small) {
-		width: 100px;
-		height: 100px;
+	@media only screen and (max-width: $bp-xsmall) {
+		width: 30px;
+		height: 30px;
+		margin-top: 10%;
+	}
+	@media only screen and (max-width: $bp-small) {
+		width: 50px;
+		height: 50px;
 		margin-top: 10%;
 	}
 
 	@media only screen and (max-width: $breakpoint-medium) {
-		width: 150px;
-		height: 150px;
-		margin-top: 7%;
+		width: 120px;
+		height: 120px;
+		margin-top: 10%;
 	}
-	@media only screen and (max-width: $breakpoint-large) {
-		width: 200px;
-		height: 200px;
-		margin-top: 7%;
-	}
-	@media only screen and (min-width: $breakpoint-xLarge) {
-		width: 250px;
-		height: 250px;
-		margin-top: 7%;
-	}
+	// @media only screen and (max-width: $breakpoint-large) {
+	// 	width: 200px;
+	// 	height: 200px;
+	// 	margin-top: 7%;
+	// }
+	// @media only screen and (min-width: $breakpoint-xLarge) {
+	// 	width: 250px;
+	// 	height: 250px;
+	// 	margin-top: 7%;
+	// }
 }

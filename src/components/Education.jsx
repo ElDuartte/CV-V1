@@ -13,45 +13,49 @@ const Education = () => (
 		<br />
 		<h3>Tecnologías:</h3>
 		<div className="row">
-			<div className="col">
+			<div className="col-6 col-lg-4">
 				<img
-					className="logoEdu mx-auto d-block"
+					className="logoEdu  mx-auto d-block"
 					src={logoReact}
 					alt="Logo React"
 				/>
 			</div>
 
-			<div className="col">
+			<div className="col-6 col-lg-4">
 				<img
-					className="logoEdu mx-auto d-block"
+					className="logoEdu  mx-auto d-block"
 					src={logoJS}
 					alt="Logo JavaScript"
 				/>
 			</div>
 
-			<div className="col">
+			<div className="col-6 col-lg-4">
 				<img
-					className="logoEdu mx-auto d-block"
+					className="logoEdu  mx-auto d-block"
 					src={logoSass}
 					alt="Logo Sass"
 				/>
 			</div>
 
-			<div className="col">
-				<img className="logoEdu mx-auto d-block" src={logoGit} alt="Logo Git" />
+			<div className="col-6 col-lg-4">
+				<img
+					className="logoEdu  mx-auto d-block"
+					src={logoGit}
+					alt="Logo Git"
+				/>
 			</div>
 
-			<div className="col">
+			<div className="col-6 col-lg-4">
 				<img
-					className="logoEdu mx-auto d-block"
+					className="logoEdu img-fluid mx-auto d-block"
 					src={logoHtml}
 					alt="Logo HTML5"
 				/>
 			</div>
 
-			<div className="col">
+			<div className="col-6 col-lg-4">
 				<img
-					className="logoEdu mx-auto d-block"
+					className="logoEdu img-fluid mx-auto d-block"
 					src={logoBootstrap}
 					alt="Logo Bootstrap"
 				/>

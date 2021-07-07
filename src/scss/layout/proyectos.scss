@@ -1,32 +1,34 @@
 .projectImage {
 	// background-color: #563d7c;
 	// margin-right: 5%;
-	margin-top: 5%;
-	width: 300px;
+	// margin-top: 5%;
+	width: 600px;
 	height: 300px;
-	@media only screen and (max-width: $breakpoint-xSmall) {
-		width: 150px;
-		height: 150px;
-		margin-top: 10%;
-	}
-	@media only screen and (max-width: $breakpoint-xSmall) {
-		width: 200px;
-		height: 200px;
-		margin-top: 10%;
-	}
-	@media only screen and (max-width: $breakpoint-small) {
-		width: 220px;
-		height: 220px;
-		margin-top: 7%;
-	}
-	@media only screen and (max-width: $breakpoint-medium) {
-		width: 250px;
-		height: 250px;
-		margin-top: 7%;
-	}
-	@media only screen and (min-width: $breakpoint-large) {
-		width: 300px;
-		height: 300px;
-		margin-top: 7%;
-	}
+	// background-color: lightsalmon;
+	// color: $color-main;
+	// // @media only screen and (max-width: $breakpoint-xSmall) {
+	// // 	width: 150px;
+	// // 	height: 150px;
+	// // 	margin-top: 10%;
+	// // }
+	// @media only screen and (max-width: $breakpoint-xSmall) {
+	// 	width: 400px;
+	// 	height: 200px;
+	// 	// margin-top: 10%;
+	// }
+	// @media only screen and (max-width: $breakpoint-small) {
+	// 	width: 450px;
+	// 	height: 250px;
+	// 	// margin-top: 7%;
+	// }
+	// @media only screen and (max-width: $breakpoint-medium) {
+	// 	width: 500px;
+	// 	height: 200px;
+	// 	// margin-top: 7%;
+	// }
+	// @media only screen and (min-width: $breakpoint-large) {
+	// 	width: 600px;
+	// 	height: 300px;
+	// 	// margin-top: 7%;
+	// }
 }
