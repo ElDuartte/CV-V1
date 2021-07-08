@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/portafolio-V1/static/css/main.b8bf4af7.chunk.css",
-    "main.js": "/portafolio-V1/static/js/main.179acaf0.chunk.js",
-    "main.js.map": "/portafolio-V1/static/js/main.179acaf0.chunk.js.map",
+    "main.css": "/portafolio-V1/static/css/main.98681b77.chunk.css",
+    "main.js": "/portafolio-V1/static/js/main.4c1e02fd.chunk.js",
+    "main.js.map": "/portafolio-V1/static/js/main.4c1e02fd.chunk.js.map",
     "runtime-main.js": "/portafolio-V1/static/js/runtime-main.ebfb0a45.js",
     "runtime-main.js.map": "/portafolio-V1/static/js/runtime-main.ebfb0a45.js.map",
-    "static/js/2.ecb5e1b1.chunk.js": "/portafolio-V1/static/js/2.ecb5e1b1.chunk.js",
-    "static/js/2.ecb5e1b1.chunk.js.map": "/portafolio-V1/static/js/2.ecb5e1b1.chunk.js.map",
+    "static/js/2.94cfd21e.chunk.js": "/portafolio-V1/static/js/2.94cfd21e.chunk.js",
+    "static/js/2.94cfd21e.chunk.js.map": "/portafolio-V1/static/js/2.94cfd21e.chunk.js.map",
     "index.html": "/portafolio-V1/index.html",
-    "static/css/main.b8bf4af7.chunk.css.map": "/portafolio-V1/static/css/main.b8bf4af7.chunk.css.map",
-    "static/js/2.ecb5e1b1.chunk.js.LICENSE.txt": "/portafolio-V1/static/js/2.ecb5e1b1.chunk.js.LICENSE.txt",
+    "static/css/main.98681b77.chunk.css.map": "/portafolio-V1/static/css/main.98681b77.chunk.css.map",
+    "static/js/2.94cfd21e.chunk.js.LICENSE.txt": "/portafolio-V1/static/js/2.94cfd21e.chunk.js.LICENSE.txt",
+    "static/media/dummy.5442bf2f.png": "/portafolio-V1/static/media/dummy.5442bf2f.png",
+    "static/media/dummy1.ccce0bea.png": "/portafolio-V1/static/media/dummy1.ccce0bea.png",
+    "static/media/dummy2.4d7a1f84.png": "/portafolio-V1/static/media/dummy2.4d7a1f84.png",
+    "static/media/dummy3.717811d0.png": "/portafolio-V1/static/media/dummy3.717811d0.png",
     "static/media/juanFelipeDuarte.bcbc4482.pdf": "/portafolio-V1/static/media/juanFelipeDuarte.bcbc4482.pdf",
     "static/media/logo-git.3f235fe7.png": "/portafolio-V1/static/media/logo-git.3f235fe7.png",
     "static/media/logo-html5.c98e7e02.png": "/portafolio-V1/static/media/logo-html5.c98e7e02.png",
@@ -19,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ebfb0a45.js",
-    "static/js/2.ecb5e1b1.chunk.js",
-    "static/css/main.b8bf4af7.chunk.css",
-    "static/js/main.179acaf0.chunk.js"
+    "static/js/2.94cfd21e.chunk.js",
+    "static/css/main.98681b77.chunk.css",
+    "static/js/main.4c1e02fd.chunk.js"
   ]
 }
