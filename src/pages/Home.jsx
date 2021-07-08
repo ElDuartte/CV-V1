@@ -2,8 +2,8 @@ import React, { useRef } from "react";
 
 import About from "../components/About";
 import Experiencia from "../components/Experiencia";
-import Proyectos from "../components/Proyectos";
 import Education from "../components/Education";
+import Proyectos from "../components/Proyectos";
 
 import "../scss/main.scss";
 
