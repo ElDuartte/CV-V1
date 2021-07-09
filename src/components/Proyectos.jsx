@@ -5,7 +5,7 @@ import { SliderData } from "./SliderData.jsx";
 
 function Proyectos() {
 	return (
-		<div>
+		<div className=" container">
 			<h3>Proyectos</h3>
 			<Slider slides={SliderData} />
 		</div>

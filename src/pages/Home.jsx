@@ -49,17 +49,9 @@ const Home = () => {
 					<Proyectos />
 				</section>
 				<div className="foot"></div>
-				{/* <div ref={titleAbout}>
-					<About />
-				</div> */}
-				{/* <Experiencia /> */}
-				{/* <Education /> */}
-				{/* <Proyectos /> */}
 			</div>
 		</div>
 	);
 };
 
 export default Home;
-
-// className = "smoothScorll";

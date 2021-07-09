@@ -18,8 +18,16 @@ $font-text: "Shadows Into Light", cursive;
 \*--------------------------------*/
 $bp-xsmall: 320px;
 $breakpoint-xSmall: 0px;
-// $breakpoint-small: 576px;
 $bp-small: 480px;
 $breakpoint-medium: 768px;
 $breakpoint-large: 992px;
 $breakpoint-xLarge: 1200px;
+
+/* bootstrap breakpoints
+xs < 576px
+sm > 576px
+md > 768px
+lg > 992px
+xl > 1200px
+xxl > 1400px
+*/

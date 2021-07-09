@@ -21,9 +21,7 @@ const Slider = ({ slides }) => {
 	}
 
 	return (
-		<section className="slider">
-			<FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-			<FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
+		<div className="slider">
 			{SliderData.map((slide, index) => {
 				return (
 					<div
@@ -31,19 +29,36 @@ const Slider = ({ slides }) => {
 						key={index}
 					>
 						{index === current && (
-							<div>
-								<img src={slide.image} alt={slide.alt} className="image" />
+							<div className="row">
+								<img
+									src={slide.image}
+									alt={slide.alt}
+									className="image col-lg-6 col-md-12"
+								/>
 
-								<div className="info">
+								<div className="info col-xl-6 col-lg-12 pt-4">
 									<h4>{slide.title}</h4>
-									<p>{slide.info}</p>
+									<p className="pb-4">{slide.info}</p>
+									<a href="/" className="row  btn btn-primary ">
+										Link del proyecto
+									</a>
+									<div className="row arrows">
+										<FaArrowAltCircleLeft
+											className="left-arrow col"
+											onClick={prevSlide}
+										/>
+										<FaArrowAltCircleRight
+											className="right-arrow col"
+											onClick={nextSlide}
+										/>
+									</div>
 								</div>
 							</div>
 						)}
 					</div>
 				);
 			})}
-		</section>
+		</div>
 	);
 };
 

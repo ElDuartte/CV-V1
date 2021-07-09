@@ -1,39 +1,61 @@
 .slider {
-	position: relative;
-	height: 100vh;
+	// position: relative;
+	height: inherit;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-left: 5px;
 }
 
 .image {
-	width: 100%;
-	height: 100%;
-	border-radius: 10px;
+	width: 50%;
+	height: 50%;
+	border-radius: 5%;
 	object-fit: cover;
-	filter: brightness(50%);
+	// filter: brightness(50%);
+	@media only screen and (max-width: $breakpoint-xLarge) {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.arrows {
+	margin-top: 20px;
 }
 
 .right-arrow {
-	position: absolute;
-	top: 50%;
-	right: 0px;
+	// position: absolute;
+	// top: 50%;
+	// right: 0px;
+	// color: $color-main;
+	// z-index: 10;
 	font-size: 3rem;
-	color: $color-main;
-	z-index: 10;
 	cursor: pointer;
 	user-select: none;
+	// @media only screen and (max-width: $breakpoint-large) {
+	// 	top: 35%;
+	// }
 }
 
 .left-arrow {
-	position: absolute;
-	top: 50%;
-	left: 1px;
+	// position: absolute;
+	// top: 50%;
+	// left: 1px;
+	// color: $color-main;
+	// z-index: 10;
 	font-size: 3rem;
-	color: $color-main;
-	z-index: 10;
 	cursor: pointer;
 	user-select: none;
+	// @media only screen and (max-width: $breakpoint-large) {
+	// 	top: 35%;
+	// }
+}
+
+.left-arrow:hover,
+.right-arrow :hover {
+	// background-color: #181818a6;
+	// color: $color-second;
+	color: #696969;
 }
 
 .slide {
@@ -47,16 +69,53 @@
 	transform: scale(1.08);
 }
 
-.info {
-	position: absolute;
-	left: 50%;
-	bottom: 0;
-	color: white;
-	transform: translateX(-50%);
-	padding-bottom: 20px;
-	@media only screen and (max-width: $breakpoint-medium) {
-		position: relative;
-		display: flexbox;
-		padding-bottom: 0;
+.info h4,
+p {
+	// position: absolute;
+	// left: 50%;
+	// bottom: 0;
+	// color: white;
+	// transform: translateX(-50%);
+	// padding-bottom: 20px;
+	// @media only screen and (max-width: $breakpoint-large) {
+	// 	position: relative;
+	// 	display: flexbox;
+	// 	padding-bottom: 0;
+	// }
+	// display: flexbox;
+	padding: 0;
+	margin: 0;
+}
+
+// .link-Btn-Project {
+.btn-primary {
+	padding: 0;
+	padding-top: 1rem;
+	margin: 0;
+	border-radius: 10px;
+	background-color: $color-second;
+	color: $color-main;
+	font-family: $font-titles;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	cursor: pointer;
+	height: 3.5rem;
+	width: 100%;
+	justify-content: center;
+	user-select: none;
+	text-decoration: none;
+	@media only screen and (max-width: $bp-small) {
+		font-size: 1.2rem;
+		line-height: 2rem;
+		padding-top: 0.6rem;
 	}
+}
+
+.btn-primary:hover {
+	color: $color-second;
+	background-color: #696969;
+}
+.btn-primary:focus {
+	color: $color-second;
+	background-color: #696969;
 }
