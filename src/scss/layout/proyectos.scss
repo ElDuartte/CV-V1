@@ -1,5 +1,4 @@
 .slider {
-	// position: relative;
 	height: inherit;
 	display: flex;
 	justify-content: center;
@@ -12,7 +11,7 @@
 	height: 50%;
 	border-radius: 5%;
 	object-fit: cover;
-	// filter: brightness(50%);
+
 	@media only screen and (max-width: $breakpoint-xLarge) {
 		width: 100%;
 		height: 100%;
@@ -24,37 +23,19 @@
 }
 
 .right-arrow {
-	// position: absolute;
-	// top: 50%;
-	// right: 0px;
-	// color: $color-main;
-	// z-index: 10;
 	font-size: 3rem;
 	cursor: pointer;
 	user-select: none;
-	// @media only screen and (max-width: $breakpoint-large) {
-	// 	top: 35%;
-	// }
 }
 
 .left-arrow {
-	// position: absolute;
-	// top: 50%;
-	// left: 1px;
-	// color: $color-main;
-	// z-index: 10;
 	font-size: 3rem;
 	cursor: pointer;
 	user-select: none;
-	// @media only screen and (max-width: $breakpoint-large) {
-	// 	top: 35%;
-	// }
 }
 
 .left-arrow:hover,
 .right-arrow :hover {
-	// background-color: #181818a6;
-	// color: $color-second;
 	color: #696969;
 }
 
@@ -71,23 +52,10 @@
 
 .info h4,
 p {
-	// position: absolute;
-	// left: 50%;
-	// bottom: 0;
-	// color: white;
-	// transform: translateX(-50%);
-	// padding-bottom: 20px;
-	// @media only screen and (max-width: $breakpoint-large) {
-	// 	position: relative;
-	// 	display: flexbox;
-	// 	padding-bottom: 0;
-	// }
-	// display: flexbox;
 	padding: 0;
 	margin: 0;
 }
 
-// .link-Btn-Project {
 .btn-primary {
 	padding: 0;
 	padding-top: 1rem;
@@ -104,6 +72,8 @@ p {
 	justify-content: center;
 	user-select: none;
 	text-decoration: none;
+	border: none !important;
+
 	@media only screen and (max-width: $bp-small) {
 		font-size: 1.2rem;
 		line-height: 2rem;
@@ -114,8 +84,10 @@ p {
 .btn-primary:hover {
 	color: $color-second;
 	background-color: #696969;
+	border-style: none;
 }
 .btn-primary:focus {
 	color: $color-second;
 	background-color: #696969;
+	border: none !important;
 }

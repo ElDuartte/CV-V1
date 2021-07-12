@@ -39,7 +39,12 @@ const Slider = ({ slides }) => {
 								<div className="info col-xl-6 col-lg-12 pt-4">
 									<h4>{slide.title}</h4>
 									<p className="pb-4">{slide.info}</p>
-									<a href="/" className="row  btn btn-primary ">
+									<a
+										href={slide.link}
+										target="_blank"
+										rel="noreferrer"
+										className="row  btn btn-primary "
+									>
 										Link del proyecto
 									</a>
 									<div className="row arrows">
