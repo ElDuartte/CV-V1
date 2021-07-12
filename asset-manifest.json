@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/portafolio-V1/static/css/main.daf1322d.chunk.css",
-    "main.js": "/portafolio-V1/static/js/main.f512c19c.chunk.js",
-    "main.js.map": "/portafolio-V1/static/js/main.f512c19c.chunk.js.map",
+    "main.css": "/portafolio-V1/static/css/main.16464b65.chunk.css",
+    "main.js": "/portafolio-V1/static/js/main.d6949193.chunk.js",
+    "main.js.map": "/portafolio-V1/static/js/main.d6949193.chunk.js.map",
     "runtime-main.js": "/portafolio-V1/static/js/runtime-main.ebfb0a45.js",
     "runtime-main.js.map": "/portafolio-V1/static/js/runtime-main.ebfb0a45.js.map",
     "static/js/2.94cfd21e.chunk.js": "/portafolio-V1/static/js/2.94cfd21e.chunk.js",
     "static/js/2.94cfd21e.chunk.js.map": "/portafolio-V1/static/js/2.94cfd21e.chunk.js.map",
     "index.html": "/portafolio-V1/index.html",
-    "static/css/main.daf1322d.chunk.css.map": "/portafolio-V1/static/css/main.daf1322d.chunk.css.map",
+    "static/css/main.16464b65.chunk.css.map": "/portafolio-V1/static/css/main.16464b65.chunk.css.map",
     "static/js/2.94cfd21e.chunk.js.LICENSE.txt": "/portafolio-V1/static/js/2.94cfd21e.chunk.js.LICENSE.txt",
-    "static/media/dummy.5442bf2f.png": "/portafolio-V1/static/media/dummy.5442bf2f.png",
     "static/media/dummy1.ccce0bea.png": "/portafolio-V1/static/media/dummy1.ccce0bea.png",
     "static/media/dummy2.4d7a1f84.png": "/portafolio-V1/static/media/dummy2.4d7a1f84.png",
     "static/media/dummy3.717811d0.png": "/portafolio-V1/static/media/dummy3.717811d0.png",
@@ -19,12 +18,13 @@
     "static/media/logo-html5.c98e7e02.png": "/portafolio-V1/static/media/logo-html5.c98e7e02.png",
     "static/media/logo-javascript.237cd48c.png": "/portafolio-V1/static/media/logo-javascript.237cd48c.png",
     "static/media/logo-react.68f1d992.png": "/portafolio-V1/static/media/logo-react.68f1d992.png",
-    "static/media/logo-sass.57b8ba81.png": "/portafolio-V1/static/media/logo-sass.57b8ba81.png"
+    "static/media/logo-sass.57b8ba81.png": "/portafolio-V1/static/media/logo-sass.57b8ba81.png",
+    "static/media/proyecto1-weather.b212ba43.png": "/portafolio-V1/static/media/proyecto1-weather.b212ba43.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ebfb0a45.js",
     "static/js/2.94cfd21e.chunk.js",
-    "static/css/main.daf1322d.chunk.css",
-    "static/js/main.f512c19c.chunk.js"
+    "static/css/main.16464b65.chunk.css",
+    "static/js/main.d6949193.chunk.js"
   ]
 }
