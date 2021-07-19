@@ -32,7 +32,7 @@ function Education() {
 
 				start: "top 80%",
 				end: "bottom 5%",
-				toggleActions: "restart complete reverse reset",
+				toggleActions: "restart complete reset",
 			},
 		});
 		// gsap.from([logoR, logoJ, logoS, logoG, logoH, logoB], {
