@@ -8,7 +8,7 @@ export const SliderData = [
 		id: "0",
 		image: logo,
 		title: "Aplicación meteorológica",
-		info: "Esta aplicación fue echa implementando la filosofía de diseño mobile first. Implementando conocimientos de React, Sass, Bootstrap, manejo de Api`s.",
+		info: "Esta aplicación fue realizada, implementando la filosofía de diseño mobile first, React, Sass, Bootstrap, manejo de Api`s.",
 		alt: "Imagen del primer proyecto",
 		link: "https://elduartte.github.io/temperatura-app/",
 	},
