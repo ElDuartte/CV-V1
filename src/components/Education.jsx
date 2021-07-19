@@ -24,7 +24,8 @@ function Education() {
 		gsap.from([logoR, logoJ, logoS, logoG, logoH, logoB], {
 			duration: 1,
 			opacity: 0,
-			x: 40,
+			y: 50,
+			x: 50,
 			ease: Power3.easeOut,
 			stagger: 0.2,
 			scrollTrigger: {
@@ -32,7 +33,7 @@ function Education() {
 
 				start: "top 80%",
 				end: "bottom 5%",
-				toggleActions: "restart complete reset",
+				toggleActions: "restart complete",
 			},
 		});
 		// gsap.from([logoR, logoJ, logoS, logoG, logoH, logoB], {
