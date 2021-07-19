@@ -28,9 +28,9 @@ h2 {
 	font-family: $font-text;
 	font-size: 1.7rem;
 	line-height: 2em;
-	@media only screen and (max-width: $breakpoint-xSmall) {
+	@media only screen and (max-width: $bp-xsmall) {
 		font-size: 1.3rem;
-		line-height: 1.5rem;
+		line-height: 1.8rem;
 	}
 }
 
@@ -68,7 +68,7 @@ p {
 	line-height: 3rem;
 	@media only screen and (max-width: $bp-xsmall) {
 		font-size: 1.3rem;
-		line-height: 2.3rem;
+		line-height: 1.8rem;
 	}
 }
 

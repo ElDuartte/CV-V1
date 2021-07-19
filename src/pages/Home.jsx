@@ -21,7 +21,6 @@ const Home = () => {
 
 	return (
 		<div>
-			{/* <div className="container"> */}
 			<section className="one ">
 				<span>
 					<h1>
@@ -35,15 +34,13 @@ const Home = () => {
 					<button
 						onClick={handleBackClick}
 						className="fas fa-angle-down scrollDown-button"
-						aria-label="Boton siguiente seccion"
+						aria-label="Botón siguiente sección"
 					></button>
 				</div>
 			</section>
-
 			<section className="two" ref={titleAbout}>
 				<About />
 			</section>
-
 			<section className="three">
 				<Experiencia />
 			</section>
@@ -53,8 +50,6 @@ const Home = () => {
 			<section className="five">
 				<Proyectos />
 			</section>
-
-			{/* </div> */}
 		</div>
 	);
 };

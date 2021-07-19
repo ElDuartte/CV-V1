@@ -36,7 +36,7 @@ const Slider = ({ slides }) => {
 									className="image col-lg-6 col-md-12"
 								/>
 
-								<div className="info col-xl-6 col-lg-12 pt-4">
+								<div className="info col-xl-6 col-lg-12">
 									<h4>{slide.title}</h4>
 									<p className="pb-4">{slide.info}</p>
 									<a

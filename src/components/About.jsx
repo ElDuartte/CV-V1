@@ -14,7 +14,7 @@ const About = () => (
 				implementando diseños con Responsive design.
 			</p>
 			<br />
-			<div className="row mb-5">
+			<div className="row contact">
 				<div className="col">
 					<h3>Contacto</h3>
 					<p>

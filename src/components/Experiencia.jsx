@@ -1,7 +1,7 @@
 import React from "react";
 
 const Experiencia = () => (
-	<div className="container pt-5">
+	<div className="container experiencia">
 		<h3>Experiencia</h3>
 		<div className="text-container">
 			<h4>Desarrollador Front-end</h4>
