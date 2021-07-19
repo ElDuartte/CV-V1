@@ -11,7 +11,10 @@ $color-second: white;
 /* Texto normal  font-family: 'Rajdhani', sans-serif;*/
 /* Texto alt1 font-family: 'Shadows Into Light', cursive; */
 $font-titles: "Rajdhani", sans-serif;
-$font-text: "Shadows Into Light", cursive;
+
+@import url("https://fonts.googleapis.com/css2?family=Yomogi&display=swap");
+// $font-text: "Shadows Into Light", cursive;
+$font-text: "Yomogi", cursive;
 
 /*--------------------------------*\
 | $BREAKPOINTS  

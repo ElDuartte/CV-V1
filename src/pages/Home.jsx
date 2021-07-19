@@ -45,7 +45,7 @@ const Home = () => {
 				<section className="four">
 					<Education />
 				</section>
-				<section className="four">
+				<section className="five">
 					<Proyectos />
 				</section>
 				<div className="foot"></div>
