@@ -13,11 +13,11 @@ const Experiencia = () => (
 				</ul>
 				<br />
 				<br />
-				<h4>Practicas</h4>
+				<h4>Prácticas</h4>
 
 				<ul>
 					<li>Noviembre 2019</li>
-					<li>Practicas en el lenguaje de programación "C"</li>
+					<li>Prácticas en el lenguaje de programación "C"</li>
 				</ul>
 			</div>
 		</div>
