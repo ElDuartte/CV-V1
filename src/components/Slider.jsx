@@ -21,7 +21,7 @@ const Slider = ({ slides }) => {
 	}
 
 	return (
-		<div className="slider">
+		<div className="slider container">
 			{SliderData.map((slide, index) => {
 				return (
 					<div

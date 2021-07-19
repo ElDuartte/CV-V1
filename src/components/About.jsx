@@ -3,7 +3,7 @@ import React from "react";
 import pdf from "../docs/juanFelipeDuarte.pdf";
 
 const About = () => (
-	<main className="about" id="about">
+	<main className="about container" id="about">
 		<div>
 			<h3>Acerca de mi</h3>
 			<br />

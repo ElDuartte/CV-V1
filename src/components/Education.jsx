@@ -52,9 +52,7 @@ function Education() {
 	}, []);
 
 	return (
-		<div>
-			<br />
-			<br />
+		<div className="container">
 			<h3>Tecnologías:</h3>
 			<div className="row">
 				<div className="col-6 col-lg-4" ref={(el) => (logoR = el)}>
