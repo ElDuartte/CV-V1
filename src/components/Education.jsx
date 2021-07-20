@@ -1,11 +1,11 @@
 import React, { useRef, useEffect } from "react";
 
-import logoReact from "../media/logo-react.png";
-import logoJS from "../media/logo-javascript.png";
-import logoSass from "../media/logo-sass.png";
-import logoGit from "../media/logo-git.png";
-import logoHtml from "../media/logo-html5.png";
-import logoBootstrap from "../media/logo-bootstrap.png";
+import logoReact from "../media/logos-ed/logo-react.webp";
+import logoJS from "../media/logos-ed/logo-javascript.webp";
+import logoSass from "../media/logos-ed/logo-sass.webp";
+import logoGit from "../media/logos-ed/logo-git.webp";
+import logoHtml from "../media/logos-ed/logo-html5.webp";
+import logoBootstrap from "../media/logos-ed/logo-bootstrap.webp";
 
 import { gsap, Power3 } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
