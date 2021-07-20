@@ -1,57 +1,62 @@
-import React, { useRef } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import "../scss/main.scss";
 
-import About from "../components/About";
-import Experiencia from "../components/Experiencia";
-import Education from "../components/Education";
-import Proyectos from "../components/Proyectos";
-
+// const Hello = lazy(() => import("../components/hello"));
 // const About = lazy(() => import("../components/About"));
 // const Experiencia = lazy(() => import("../components/Experiencia"));
 // const Education = lazy(() => import("../components/Education"));
 // const Proyectos = lazy(() => import("../components/Proyectos"));
 
-const Home = () => {
-	const titleAbout = useRef();
+import Hello from "../components/hello";
+import About from "../components/About";
+import Experiencia from "../components/Experiencia";
+import Education from "../components/Education";
+import Proyectos from "../components/Proyectos";
+import Loading from "../components/Loader";
 
-	function handleBackClick() {
-		// Scroll back to the title element...
-		titleAbout.current.scrollIntoView({ behavior: "smooth" });
-	}
+function Home() {
+	const [isLoading, setIsLoading] = useState(true);
+	useEffect(() => {
+		setTimeout(() => {
+			setIsLoading(false);
+		}, 2500);
+	});
 
 	return (
 		<div>
-			<section className="one ">
-				<span>
-					<h1>
-						Hola. <br /> Soy Juan Felipe
-					</h1>
-					<span className="secondSentence">
-						<h2>Front-end Developer viviendo en Madrid</h2>
-					</span>
-				</span>
-				<div className="btn-holder">
-					<button
-						onClick={handleBackClick}
-						className="fas fa-angle-down scrollDown-button"
-						aria-label="Botón siguiente sección"
-					></button>
-				</div>
-			</section>
-			<section className="two" ref={titleAbout}>
-				<About />
-			</section>
-			<section className="three">
-				<Experiencia />
-			</section>
-			<section className="four">
-				<Education />
-			</section>
-			<section className="five">
-				<Proyectos />
-			</section>
+			{isLoading == true ? (
+				<Loading />
+			) : (
+				<>
+					<section className="one ">
+						{/* <Suspense fallback={<h1>Cargando ...</h1>}> */}
+						<Hello />
+						{/* </Suspense> */}
+					</section>
+					<section className="two">
+						{/* <Suspense fallback={<h1>Cargando ...</h1>}> */}
+						<About />
+						{/* </Suspense> */}
+					</section>
+					<section className="three">
+						{/* <Suspense fallback={<h1>Cargando ...</h1>}> */}
+						<Experiencia />
+						{/* </Suspense> */}
+					</section>
+					<section className="four">
+						{/* <Suspense fallback={<h1>Cargando ...</h1>}> */}
+						<Education />
+						{/* </Suspense> */}
+					</section>
+					<section className="five">
+						<Suspense fallback={<h1>Cargando ...</h1>}>
+							<Proyectos />
+						</Suspense>
+					</section>
+				</>
+			)}
 		</div>
 	);
-};
+}
 
 export default Home;
