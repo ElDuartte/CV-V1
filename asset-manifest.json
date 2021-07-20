@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portafolio-V1/static/css/main.9ef7ea6a.chunk.css",
-    "main.js": "/portafolio-V1/static/js/main.c62152f5.chunk.js",
-    "main.js.map": "/portafolio-V1/static/js/main.c62152f5.chunk.js.map",
+    "main.js": "/portafolio-V1/static/js/main.df188baa.chunk.js",
+    "main.js.map": "/portafolio-V1/static/js/main.df188baa.chunk.js.map",
     "runtime-main.js": "/portafolio-V1/static/js/runtime-main.ebfb0a45.js",
     "runtime-main.js.map": "/portafolio-V1/static/js/runtime-main.ebfb0a45.js.map",
     "static/js/2.142a3846.chunk.js": "/portafolio-V1/static/js/2.142a3846.chunk.js",
@@ -14,17 +14,18 @@
     "static/media/dummy2.4d7a1f84.png": "/portafolio-V1/static/media/dummy2.4d7a1f84.png",
     "static/media/dummy3.717811d0.png": "/portafolio-V1/static/media/dummy3.717811d0.png",
     "static/media/juanFelipeDuarte.bcbc4482.pdf": "/portafolio-V1/static/media/juanFelipeDuarte.bcbc4482.pdf",
-    "static/media/logo-git.3f235fe7.png": "/portafolio-V1/static/media/logo-git.3f235fe7.png",
-    "static/media/logo-html5.c98e7e02.png": "/portafolio-V1/static/media/logo-html5.c98e7e02.png",
-    "static/media/logo-javascript.237cd48c.png": "/portafolio-V1/static/media/logo-javascript.237cd48c.png",
-    "static/media/logo-react.6936ac21.png": "/portafolio-V1/static/media/logo-react.6936ac21.png",
-    "static/media/logo-sass.57b8ba81.png": "/portafolio-V1/static/media/logo-sass.57b8ba81.png",
+    "static/media/logo-bootstrap.c6f1166e.webp": "/portafolio-V1/static/media/logo-bootstrap.c6f1166e.webp",
+    "static/media/logo-git.df9e2ce6.webp": "/portafolio-V1/static/media/logo-git.df9e2ce6.webp",
+    "static/media/logo-html5.24743e14.webp": "/portafolio-V1/static/media/logo-html5.24743e14.webp",
+    "static/media/logo-javascript.0179b235.webp": "/portafolio-V1/static/media/logo-javascript.0179b235.webp",
+    "static/media/logo-react.ff21bbbb.webp": "/portafolio-V1/static/media/logo-react.ff21bbbb.webp",
+    "static/media/logo-sass.88b9b9e4.webp": "/portafolio-V1/static/media/logo-sass.88b9b9e4.webp",
     "static/media/proyecto1-weather.b212ba43.png": "/portafolio-V1/static/media/proyecto1-weather.b212ba43.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ebfb0a45.js",
     "static/js/2.142a3846.chunk.js",
     "static/css/main.9ef7ea6a.chunk.css",
-    "static/js/main.c62152f5.chunk.js"
+    "static/js/main.df188baa.chunk.js"
   ]
 }
