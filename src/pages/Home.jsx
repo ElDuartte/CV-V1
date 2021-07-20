@@ -14,41 +14,55 @@ import Education from "../components/Education";
 import Proyectos from "../components/Proyectos";
 import Loading from "../components/Loader";
 
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
+
 function Home() {
 	const [isLoading, setIsLoading] = useState(true);
 	useEffect(() => {
 		setTimeout(() => {
 			setIsLoading(false);
-		}, 2500);
+		}, 1500);
+	});
+
+	gsap.registerPlugin(ScrollTrigger);
+
+	gsap.utils.toArray(".section").forEach((section) => {
+		ScrollTrigger.create({
+			trigger: section,
+			start: "top top",
+			pin: true,
+			pinSpacing: false,
+		});
 	});
 
 	return (
 		<div>
-			{isLoading == true ? (
+			{isLoading === true ? (
 				<Loading />
 			) : (
 				<>
-					<section className="one ">
+					<section className="section one ">
 						{/* <Suspense fallback={<h1>Cargando ...</h1>}> */}
 						<Hello />
 						{/* </Suspense> */}
 					</section>
-					<section className="two">
+					<section className="section two">
 						{/* <Suspense fallback={<h1>Cargando ...</h1>}> */}
 						<About />
 						{/* </Suspense> */}
 					</section>
-					<section className="three">
+					<section className="section three">
 						{/* <Suspense fallback={<h1>Cargando ...</h1>}> */}
 						<Experiencia />
 						{/* </Suspense> */}
 					</section>
-					<section className="four">
+					<section className="section four">
 						{/* <Suspense fallback={<h1>Cargando ...</h1>}> */}
 						<Education />
 						{/* </Suspense> */}
 					</section>
-					<section className="five">
+					<section className="section five">
 						<Suspense fallback={<h1>Cargando ...</h1>}>
 							<Proyectos />
 						</Suspense>

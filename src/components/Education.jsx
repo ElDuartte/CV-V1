@@ -24,6 +24,7 @@ function Education() {
 		gsap.from([logoR, logoJ, logoS, logoG, logoH, logoB], {
 			duration: 1,
 			opacity: 0,
+			scale: 1,
 			y: 50,
 			x: 50,
 			ease: Power3.easeOut,
@@ -36,26 +37,13 @@ function Education() {
 				toggleActions: "restart complete",
 			},
 		});
-		// gsap.from([logoR, logoJ, logoS, logoG, logoH, logoB], {
-		// 	duration: 1,
-		// 	scale: 0.1,
-		// 	y: 40,
-		// 	ease: "power1.inOut",
-		// 	stagger: {
-		// 		grid: [7, 15],
-		// 		from: "random",
-		// 		axis: "x",
-		// 		ease: "power3.inOut",
-		// 		amount: 1.5,
-		// 	},
-		// });
 	}, []);
 
 	return (
 		<div className="container">
 			<h3>Tecnologías:</h3>
 			<div className="row">
-				<div className="col-6 col-lg-4" ref={(el) => (logoR = el)}>
+				<div className="col-6 col-sm-12 col-lg-4 " ref={(el) => (logoR = el)}>
 					<img
 						className="logoEdu  mx-auto d-block"
 						src={logoReact}
@@ -63,7 +51,7 @@ function Education() {
 					/>
 				</div>
 
-				<div className="col-6 col-lg-4" ref={(el) => (logoJ = el)}>
+				<div className="col-6 col-sm-12 col-lg-4 " ref={(el) => (logoJ = el)}>
 					<img
 						className="logoEdu  mx-auto d-block"
 						src={logoJS}
@@ -71,7 +59,7 @@ function Education() {
 					/>
 				</div>
 
-				<div className="col-6 col-lg-4" ref={(el) => (logoS = el)}>
+				<div className="col-6 col-sm-12 col-lg-4 " ref={(el) => (logoS = el)}>
 					<img
 						className="logoEdu  mx-auto d-block"
 						src={logoSass}
@@ -79,7 +67,7 @@ function Education() {
 					/>
 				</div>
 
-				<div className="col-6 col-lg-4" ref={(el) => (logoG = el)}>
+				<div className="col-6 col-sm-12 col-lg-4 " ref={(el) => (logoG = el)}>
 					<img
 						className="logoEdu  mx-auto d-block"
 						src={logoGit}
@@ -87,7 +75,7 @@ function Education() {
 					/>
 				</div>
 
-				<div className="col-6 col-lg-4" ref={(el) => (logoH = el)}>
+				<div className="col-6 col-sm-12 col-lg-4 " ref={(el) => (logoH = el)}>
 					<img
 						className="logoEdu img-fluid mx-auto d-block"
 						src={logoHtml}
@@ -95,7 +83,7 @@ function Education() {
 					/>
 				</div>
 
-				<div className="col-6 col-lg-4" ref={(el) => (logoB = el)}>
+				<div className="col-6 col-sm-12 col-lg-4 " ref={(el) => (logoB = el)}>
 					<img
 						className="logoEdu img-fluid mx-auto d-block"
 						src={logoBootstrap}

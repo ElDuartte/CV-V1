@@ -5,15 +5,14 @@ import pdf from "../docs/juanFelipeDuarte.pdf";
 const About = () => (
 	<main className="about container" id="about">
 		<div>
-			<h3>Acerca de mi</h3>
-			<br />
+			<h3 className="title-about">Acerca de mi</h3>
 			<p>
 				Soy Juan Felipe Duarte, un joven web developer autodidacta enfocado en
 				el Front-end. En búsqueda de nuevas experiencias, que me permitan poner
 				en práctica mis conocimientos en React, JavaScript, HTML5 y Sass
 				implementando diseños con Responsive design.
 			</p>
-			<br />
+
 			<div className="row contact">
 				<div className="col">
 					<h3>Contacto</h3>
@@ -22,14 +21,14 @@ const About = () => (
 					</p>
 				</div>
 
-				<div className="col">
+				<div className="col contact">
 					<h3>Currículum:</h3>
 					<a
 						href={pdf}
 						target="_blank"
 						download
 						rel="noreferrer"
-						className="link-Btn"
+						className="link-Btn "
 					>
 						Descargar
 					</a>

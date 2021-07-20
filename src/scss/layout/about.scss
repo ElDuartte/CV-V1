@@ -1,11 +1,21 @@
 /*--------------------------------*\
 | layout-about__section
 \*--------------------------------*/
+.title-about {
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+.contact {
+	padding-top: 5%;
+}
+.contact h3 {
+	margin-bottom: 5%;
+}
 
 .containerButton h3 {
 	font-family: $font-titles;
 	font-weight: 900;
-	padding-right: 5%;
 }
 
 .link-Btn {
@@ -19,9 +29,11 @@
 	line-height: 1.5rem;
 	cursor: pointer;
 	height: 3rem;
-	@media only screen and (max-width: $bp-small) {
+	@media only screen and (max-width: $bp-xsmall) {
+		padding: 10px 20px;
 		font-size: 1.2rem;
-		line-height: 2rem;
+		line-height: 1.2rem;
+		height: 2rem;
 	}
 }
 
