@@ -1,0 +1,97 @@
+.fifth {
+	background-color: $color-section-fifth;
+	color: #000;
+}
+
+.carousel {
+	overflow: hidden;
+	max-width: 100%;
+	position: relative;
+	@include media(">=desktopS") {
+		width: 85%;
+		margin-left: 7.5%;
+	}
+	@include media(">=desktop") {
+		width: 75%;
+		margin-left: 12.5%;
+	}
+}
+
+.title__carousel {
+	font-size: 3em;
+	padding-bottom: 10px;
+}
+
+.link-title__project {
+	color: black;
+}
+
+.carousel .carousel__item,
+.carousel .carousel__item--hidden {
+	display: none;
+}
+
+.img-project {
+	width: 100%;
+}
+
+.carousel .carousel__item--visible {
+	display: block;
+	animation: fadeVisibility 0.8s;
+}
+
+.title-project {
+	padding-bottom: 15px;
+}
+
+.text-card {
+	padding-bottom: 15px;
+	font-size: 1.3em;
+}
+
+.carousel__actions {
+	display: grid;
+	width: 100%;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr;
+	padding: 0 auto;
+}
+
+.btn {
+	display: inline-block;
+	padding: 0.5em 3em;
+	border-radius: 2em;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: $font-titles;
+	font-size: 1em;
+	font-weight: bolder;
+	color: $color-section-fifth;
+	background-color: black;
+	text-align: center;
+	transition: all 0.5s;
+	border-style: none;
+	cursor: pointer;
+	@media all and (max-width: 30em) {
+		margin: 0.2em auto;
+	}
+}
+// .btn:hover {
+// 	background-color: $color-section-first;
+// 	color: #fff;
+// }
+
+.btn:active {
+	transform: scale(0.5);
+	// color: #fff;
+}
+
+@keyframes fadeVisibility {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		transform: opacity linear;
+	}
+}

@@ -1,18 +1,13 @@
-import React, { useState, useEffect, Suspense } from "react";
-import "../scss/main.scss";
+import React, { useState, useEffect } from "react";
+import "../scss/index.scss";
 
-// const Hello = lazy(() => import("../components/hello"));
-// const About = lazy(() => import("../components/About"));
-// const Experiencia = lazy(() => import("../components/Experiencia"));
-// const Education = lazy(() => import("../components/Education"));
-// const Proyectos = lazy(() => import("../components/Proyectos"));
-
-import Hello from "../components/hello";
-import About from "../components/About";
-import Experiencia from "../components/Experiencia";
-import Education from "../components/Education";
-import Proyectos from "../components/Proyectos";
 import Loading from "../components/Loader";
+
+import First from "../components/First";
+import Second from "../components/Second";
+import Third from "../components/Third";
+import Fourth from "../components/Fourth";
+import Fifth from "../components/Fifth";
 
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
@@ -22,7 +17,7 @@ function Home() {
 	useEffect(() => {
 		setTimeout(() => {
 			setIsLoading(false);
-		}, 1500);
+		}, 400);
 	});
 
 	gsap.registerPlugin(ScrollTrigger);
@@ -42,30 +37,20 @@ function Home() {
 				<Loading />
 			) : (
 				<>
-					<section className="section one ">
-						{/* <Suspense fallback={<h1>Cargando ...</h1>}> */}
-						<Hello />
-						{/* </Suspense> */}
+					<section className="first section">
+						<First />
 					</section>
-					<section className="section two">
-						{/* <Suspense fallback={<h1>Cargando ...</h1>}> */}
-						<About />
-						{/* </Suspense> */}
+					<section className="second section">
+						<Second />
 					</section>
-					<section className="section three">
-						{/* <Suspense fallback={<h1>Cargando ...</h1>}> */}
-						<Experiencia />
-						{/* </Suspense> */}
+					<section className="third section ">
+						<Third />
 					</section>
-					<section className="section four">
-						{/* <Suspense fallback={<h1>Cargando ...</h1>}> */}
-						<Education />
-						{/* </Suspense> */}
+					<section className="fourth section ">
+						<Fourth />
 					</section>
-					<section className="section five">
-						<Suspense fallback={<h1>Cargando ...</h1>}>
-							<Proyectos />
-						</Suspense>
+					<section className="fifth section ">
+						<Fifth />
 					</section>
 				</>
 			)}

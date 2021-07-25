@@ -1,0 +1,26 @@
+/*--------------------------------*\
+-------------Variables--------------
+/*--------------------------------*/
+
+@import "lib/_Variables.scss";
+
+/*--------------------------------*\
+------------BreakPoints-------------
+/*--------------------------------*/
+@import "styles/breakPoints/breakpoints.scss";
+
+/*--------------------------------*\
+---------------Global---------------
+/*--------------------------------*/
+
+@import "styles/global.scss";
+
+/*--------------------------------*\
+--------------Section---------------
+/*--------------------------------*/
+@import "styles/components/loader.scss";
+@import "styles/components/first.scss";
+@import "styles/components/second.scss";
+@import "styles/components/third.scss";
+@import "styles/components/fourth.scss";
+@import "styles/components/fifth.scss";

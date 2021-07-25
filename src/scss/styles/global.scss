@@ -1,0 +1,106 @@
+/*--------------------------------*\
+---------------Global---------------
+/*--------------------------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	overflow-x: hidden !important;
+}
+
+h1 {
+	font-family: $font-titles;
+	font-size: 4em;
+	line-height: 1em;
+}
+h2 {
+	font-family: $font-titles;
+	font-size: 3.5em;
+	line-height: 1em;
+}
+h3 {
+	font-family: $font-titles;
+	font-size: 3em;
+	line-height: 1em;
+}
+h4 {
+	font-family: $font-titles;
+	font-size: 2.5em;
+	line-height: 1em;
+}
+h5 {
+	font-family: $font-titles;
+	font-size: 2em;
+	line-height: 1em;
+}
+h6 {
+	font-family: $font-titles;
+	font-size: 1.5em;
+	line-height: 1em;
+}
+
+li,
+p {
+	font-family: $font-text;
+	font-size: 1em;
+	line-height: 1em;
+}
+
+a {
+	color: white;
+	font-style: none;
+	text-decoration: none;
+	font-size: 1em;
+	line-height: 1em;
+}
+
+.section {
+	position: sticky;
+	height: 100vh;
+	color: #fff;
+}
+
+.container {
+	padding-top: 5vh;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	margin-bottom: 5vh;
+
+	@include media(">=tablet") {
+		padding-top: 10vh;
+		margin-left: 10vw;
+		margin-right: 10vw;
+		margin-bottom: 10vh;
+	}
+
+	@include media(">=desktop") {
+		padding-top: 10vh;
+		margin-left: 10vw;
+		margin-right: 10vw;
+		margin-bottom: 10vh;
+	}
+}
+
+.container__alt {
+	padding-top: 15vh;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	margin-bottom: 5vh;
+
+	@include media(">=tablet") {
+		padding-top: 20vh;
+		margin-left: 10vw;
+		margin-right: 10vw;
+		margin-bottom: 20vh;
+	}
+
+	@include media(">=desktop") {
+		padding-top: 10vh;
+		margin-left: 10vw;
+		margin-right: 10vw;
+		margin-bottom: 10vh;
+	}
+}

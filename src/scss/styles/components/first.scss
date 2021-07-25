@@ -1,0 +1,28 @@
+.first {
+	background-color: $color-section-first;
+	color: black;
+}
+
+.phrase {
+	font-size: 1.3em;
+}
+
+.btn_social {
+	font-size: 1.5em;
+	line-height: 1em;
+	padding-top: 10px;
+	cursor: pointer;
+	color: black;
+}
+
+.right {
+	margin-left: 5px;
+}
+
+.btn_social:hover {
+	color: white;
+}
+
+.btn_social:active {
+	transform: scale(0.7);
+}

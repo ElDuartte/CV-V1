@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { SliderData } from "./SliderData.jsx";
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 
 const Slider = ({ slides }) => {
 	const [current, setCurrent] = useState(0);
@@ -29,33 +28,45 @@ const Slider = ({ slides }) => {
 						key={index}
 					>
 						{index === current && (
-							<div className="row">
-								<img
-									src={slide.image}
-									alt={slide.alt}
-									className="image col-lg-6 col-md-12"
-								/>
-
-								<div className="info col-xl-6 col-lg-12">
-									<h4>{slide.title}</h4>
-									<p className="pb-4">{slide.info}</p>
-									<a
-										href={slide.link}
-										target="_blank"
-										rel="noreferrer"
-										className="row  btn btn-primary "
-									>
-										Link del proyecto
-									</a>
-									<div className="row arrows">
-										<FaArrowAltCircleLeft
-											className="left-arrow col"
+							<div>
+								<div className="corousel">
+									<h2 className="title__carousel">Proyectos personales</h2>
+									<div className="image__container">
+										<img
+											src={slide.image}
+											alt={slide.alt}
+											className="img-project"
+										/>
+									</div>
+									<div className="container-text-card">
+										<h5 className="title-project">
+											<a
+												className="link-title__project"
+												href={slide.link}
+												target="_blank"
+												rel="noreferrer"
+											>
+												{slide.title}
+											</a>
+										</h5>
+										<p className="text-card">{slide.info}</p>
+									</div>
+									<div className="carousel__actions">
+										<button
+											id="carousel__btn--prev"
+											className="btn"
 											onClick={prevSlide}
-										/>
-										<FaArrowAltCircleRight
-											className="right-arrow col"
+										>
+											<i className="material-icons">arrow_back</i>
+										</button>
+
+										<button
+											id="carousel__btn--next"
+											className="btn"
 											onClick={nextSlide}
-										/>
+										>
+											<i className="material-icons">arrow_forward</i>
+										</button>
 									</div>
 								</div>
 							</div>

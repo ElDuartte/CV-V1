@@ -1,17 +1,4 @@
 /*--------------------------------*\
-| $COLORS
-\*--------------------------------*/
-$color-main: #181818;
-$color-second: white;
-
-/*--------------------------------*/
-$azul-oscuro: #0c1b33;
-$rojo: #a71d31;
-$verde: #6f7c12;
-$azul-claro: #028090;
-$egg-shell: #f1e9db;
-
-/*--------------------------------*\
 | $FONTS
 \*--------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Shadows+Into+Light&display=swap");
@@ -26,20 +13,12 @@ $font-text: "Mali", cursive;
 // font-family: 'Mali', cursive;
 
 /*--------------------------------*\
-| $BREAKPOINTS  
-\*--------------------------------*/
-$bp-xsmall: 320px;
-$breakpoint-xSmall: 0px;
-$bp-small: 480px;
-$breakpoint-medium: 768px;
-$breakpoint-large: 992px;
-$breakpoint-xLarge: 1200px;
+---------------Colors---------------
+/*--------------------------------*/
 
-/* bootstrap breakpoints
-xs < 576px
-sm > 576px
-md > 768px
-lg > 992px
-xl > 1200px
-xxl > 1400px
-*/
+$color-section-first: #00a6ed;
+$color-section-second: #533a71;
+$color-section-third: #567a09;
+// $color-section-third: #f6511d;
+$color-section-fourth: #0d2c54;
+$color-section-fifth: #ffb400;
