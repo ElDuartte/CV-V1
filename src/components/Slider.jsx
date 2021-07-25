@@ -39,7 +39,7 @@ const Slider = ({ slides }) => {
 										/>
 									</div>
 									<div className="container-text-card">
-										<h5 className="title-project">
+										<h3 className="title-project">
 											<a
 												className="link-title__project"
 												href={slide.link}
@@ -48,7 +48,7 @@ const Slider = ({ slides }) => {
 											>
 												{slide.title}
 											</a>
-										</h5>
+										</h3>
 										<p className="text-card">{slide.info}</p>
 									</div>
 									<div className="carousel__actions">

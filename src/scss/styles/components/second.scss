@@ -40,8 +40,8 @@
 	text-decoration: none;
 	font-family: $font-titles;
 	font-weight: bold;
-	color: #ffffff;
-	background-color: $color-section-first;
+	background-color: $color-section-third;
+	color: #fff;
 	text-align: center;
 	transition: all 0.2s;
 	@media all and (max-width: 30em) {
@@ -50,7 +50,7 @@
 	}
 }
 .button3:hover {
-	background-color: #0f6499;
+	background-color: $color-section-fourth;
 }
 .button3:active {
 	transform: scale(0.7);
