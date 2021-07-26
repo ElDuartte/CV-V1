@@ -7,100 +7,107 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+html {
+	font-size: 62.5%;
+}
+
 body {
 	overflow-x: hidden !important;
 }
 
 h1 {
 	font-family: $font-titles;
-	font-size: 4em;
-	line-height: 1em;
+	font-size: 5rem;
+	line-height: 5rem;
 }
 h2 {
 	font-family: $font-titles;
-	font-size: 3.5em;
-	line-height: 1em;
+	font-size: 3.5rem;
+	line-height: 3.5rem;
 }
 h3 {
 	font-family: $font-titles;
-	font-size: 3em;
-	line-height: 1em;
+	font-size: 3rem;
+	line-height: 3rem;
 }
 h4 {
 	font-family: $font-titles;
-	font-size: 2.5em;
-	line-height: 1em;
+	font-size: 2.5rem;
+	line-height: 1rem;
 }
 h5 {
 	font-family: $font-titles;
-	font-size: 2em;
-	line-height: 1em;
+	font-size: 2rem;
+	line-height: 1rem;
 }
 h6 {
 	font-family: $font-titles;
-	font-size: 1.5em;
-	line-height: 1em;
+	font-size: 1.5rem;
+	line-height: 1rem;
 }
 
 li,
 p {
 	font-family: $font-text;
-	font-size: 1em;
-	line-height: 1em;
+	font-size: 1.9rem;
+	line-height: 1.9rem;
 }
 
 a {
 	color: white;
 	font-style: none;
 	text-decoration: none;
-	font-size: 1em;
-	line-height: 1em;
+	font-size: 1.9rem;
+	line-height: 1.9rem;
 }
 
 .section {
 	position: sticky;
-	height: 100vh;
+	min-height: 100vh;
+	width: 100%;
 	color: #fff;
 }
 
+/*
+"phone": 360px,
+"phoneL": 425px,
+"tablet": 768px,
+"desktop": 1023px,
+"desktop": 1250px,
+"desktopLG": 1920px,
+*/
+
+//base phone 360px with
 .container {
 	padding-top: 5vh;
 	margin-left: 10vw;
 	margin-right: 10vw;
-	margin-bottom: 5vh;
 
 	@include media(">=tablet") {
-		padding-top: 10vh;
-		margin-left: 10vw;
-		margin-right: 10vw;
-		margin-bottom: 10vh;
+		margin: 0 auto;
+		max-width: 125ch;
 	}
 
 	@include media(">=desktop") {
-		padding-top: 10vh;
-		margin-left: 10vw;
-		margin-right: 10vw;
-		margin-bottom: 10vh;
+		margin: 0 auto;
+		padding-top: 15vh;
+		max-width: 200ch;
 	}
 }
 
 .container__alt {
-	padding-top: 15vh;
+	padding-top: 25vh;
 	margin-left: 10vw;
 	margin-right: 10vw;
-	margin-bottom: 5vh;
 
 	@include media(">=tablet") {
-		padding-top: 20vh;
-		margin-left: 10vw;
-		margin-right: 10vw;
-		margin-bottom: 20vh;
+		margin: 0 auto;
+		max-width: 125ch;
 	}
 
 	@include media(">=desktop") {
-		padding-top: 10vh;
-		margin-left: 10vw;
-		margin-right: 10vw;
-		margin-bottom: 10vh;
+		margin: 0 auto;
+		max-width: 200ch;
 	}
 }

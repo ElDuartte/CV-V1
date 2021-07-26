@@ -7,7 +7,7 @@ export const SliderData = [
 	{
 		id: "0",
 		image: logo,
-		title: "Weather App",
+		title: "Weather App ",
 		info: "Esta aplicación fue realizada, implementando la filosofía de diseño mobile first. React, Sass, Bootstrap, manejo de Api`s.",
 		alt: "Imagen del primer proyecto",
 		link: "https://elduartte.github.io/temperatura-app/",
@@ -15,21 +15,21 @@ export const SliderData = [
 	{
 		id: "1",
 		image: logo1,
-		title: "Segundo proyecto",
+		title: "Segundo proyecto ",
 		info: "Esta aplicación fue realizada, implementando la filosofía de diseño mobile first. React, Sass, Bootstrap, manejo de Api`s.",
 		alt: "Imagen del segundo proyecto",
 	},
 	{
 		id: "2",
 		image: logo2,
-		title: "Tercer proyecto",
+		title: "Tercer proyecto ",
 		info: "Esta aplicación fue realizada, implementando la filosofía de diseño mobile first. React, Sass, Bootstrap, manejo de Api`s.",
 		alt: "Imagen del tercer proyecto",
 	},
 	{
 		id: "3",
 		image: logo3,
-		title: "Cuarto proyecto",
+		title: "Cuarto proyecto ",
 		info: "Esta aplicación fue realizada, implementando la filosofía de diseño mobile first. React, Sass, Bootstrap, manejo de Api`s.",
 		alt: "Imagen del tercer proyecto",
 	},

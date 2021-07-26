@@ -13,14 +13,14 @@ const hello = () => {
 				</p>
 				<div id="first_section">
 					<a
-						href="https://github.com/ElDuartte"
+						href="https://www.linkedin.com/in/juan-felipe-duarte-monta%C3%B1ez-22505b197/"
 						target="_blank"
 						rel="noreferrer"
 					>
 						<i className="material-icons btn_social">person_outline</i>
 					</a>
 					<a
-						href="https://www.linkedin.com/in/juan-felipe-duarte-monta%C3%B1ez-22505b197/"
+						href="https://github.com/ElDuartte"
 						target="_blank"
 						rel="noreferrer"
 					>

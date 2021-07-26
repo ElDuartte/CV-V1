@@ -48,6 +48,9 @@ const Slider = ({ slides }) => {
 											>
 												{slide.title}
 											</a>
+											<a href={slide.link} target="_blank" rel="noreferrer">
+												<i className="material-icons btn-link__poject">link</i>
+											</a>
 										</h3>
 										<p className="text-card">{slide.info}</p>
 									</div>
