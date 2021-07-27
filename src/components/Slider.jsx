@@ -29,7 +29,7 @@ const Slider = ({ slides }) => {
 					>
 						{index === current && (
 							<div>
-								<div className="corousel">
+								<div className="corousel" id="fifth_section">
 									<h2 className="title__carousel">Proyectos personales</h2>
 									<div className="image__container">
 										<img

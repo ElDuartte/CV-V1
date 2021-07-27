@@ -64,50 +64,31 @@ a {
 
 .section {
 	position: sticky;
-	min-height: 100vh;
-	width: 100%;
 	color: #fff;
+	min-height: 100vh;
+	padding: 4rem 0;
 }
 
-/*
-"phone": 360px,
-"phoneL": 425px,
-"tablet": 768px,
-"desktop": 1023px,
-"desktop": 1250px,
-"desktopLG": 1920px,
-*/
-
-//base phone 360px with
 .container {
-	padding-top: 5vh;
-	margin-left: 10vw;
-	margin-right: 10vw;
+	margin-inline: auto;
+	width: #{"min(90%, 85rem)"};
+}
 
+.padding-container {
+	padding-top: 35%;
+}
+
+.second {
 	@include media(">=tablet") {
-		margin: 0 auto;
-		max-width: 125ch;
+		padding-top: 35%;
 	}
-
 	@include media(">=desktop") {
-		margin: 0 auto;
-		padding-top: 15vh;
-		max-width: 200ch;
+		padding-top: 17%;
 	}
 }
 
-.container__alt {
-	padding-top: 25vh;
-	margin-left: 10vw;
-	margin-right: 10vw;
-
+.fourth {
 	@include media(">=tablet") {
-		margin: 0 auto;
-		max-width: 125ch;
-	}
-
-	@include media(">=desktop") {
-		margin: 0 auto;
-		max-width: 200ch;
+		padding-top: 17%;
 	}
 }
