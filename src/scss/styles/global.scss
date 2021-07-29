@@ -89,6 +89,6 @@ a {
 
 .fourth {
 	@include media(">=tablet") {
-		padding-top: 17%;
+		padding-top: 10%;
 	}
 }

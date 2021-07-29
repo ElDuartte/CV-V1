@@ -1,4 +1,4 @@
-import logo from "../media/proyectos/proyecto1-weather.png";
+import logo from "../media/proyectos/1.webp";
 import logo1 from "../media/proyectos/dummy1.png";
 import logo2 from "../media/proyectos/dummy2.png";
 import logo3 from "../media/proyectos/dummy3.png";
