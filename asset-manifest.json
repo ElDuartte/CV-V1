@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portafolio-V1/static/css/main.82f09375.chunk.css",
-    "main.js": "/portafolio-V1/static/js/main.727865b5.chunk.js",
-    "main.js.map": "/portafolio-V1/static/js/main.727865b5.chunk.js.map",
+    "main.css": "/portafolio-V1/static/css/main.18d06654.chunk.css",
+    "main.js": "/portafolio-V1/static/js/main.972d86f0.chunk.js",
+    "main.js.map": "/portafolio-V1/static/js/main.972d86f0.chunk.js.map",
     "runtime-main.js": "/portafolio-V1/static/js/runtime-main.ebfb0a45.js",
     "runtime-main.js.map": "/portafolio-V1/static/js/runtime-main.ebfb0a45.js.map",
     "static/css/2.b91f0a01.chunk.css": "/portafolio-V1/static/css/2.b91f0a01.chunk.css",
@@ -10,8 +10,9 @@
     "static/js/2.ddf88aa5.chunk.js.map": "/portafolio-V1/static/js/2.ddf88aa5.chunk.js.map",
     "index.html": "/portafolio-V1/index.html",
     "static/css/2.b91f0a01.chunk.css.map": "/portafolio-V1/static/css/2.b91f0a01.chunk.css.map",
-    "static/css/main.82f09375.chunk.css.map": "/portafolio-V1/static/css/main.82f09375.chunk.css.map",
+    "static/css/main.18d06654.chunk.css.map": "/portafolio-V1/static/css/main.18d06654.chunk.css.map",
     "static/js/2.ddf88aa5.chunk.js.LICENSE.txt": "/portafolio-V1/static/js/2.ddf88aa5.chunk.js.LICENSE.txt",
+    "static/media/1.7a95b08f.webp": "/portafolio-V1/static/media/1.7a95b08f.webp",
     "static/media/dummy1.ccce0bea.png": "/portafolio-V1/static/media/dummy1.ccce0bea.png",
     "static/media/dummy2.4d7a1f84.png": "/portafolio-V1/static/media/dummy2.4d7a1f84.png",
     "static/media/dummy3.717811d0.png": "/portafolio-V1/static/media/dummy3.717811d0.png",
@@ -21,14 +22,13 @@
     "static/media/logo-html5.24743e14.webp": "/portafolio-V1/static/media/logo-html5.24743e14.webp",
     "static/media/logo-javascript.0179b235.webp": "/portafolio-V1/static/media/logo-javascript.0179b235.webp",
     "static/media/logo-react.ff21bbbb.webp": "/portafolio-V1/static/media/logo-react.ff21bbbb.webp",
-    "static/media/logo-sass.88b9b9e4.webp": "/portafolio-V1/static/media/logo-sass.88b9b9e4.webp",
-    "static/media/proyecto1-weather.b212ba43.png": "/portafolio-V1/static/media/proyecto1-weather.b212ba43.png"
+    "static/media/logo-sass.88b9b9e4.webp": "/portafolio-V1/static/media/logo-sass.88b9b9e4.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.ebfb0a45.js",
     "static/css/2.b91f0a01.chunk.css",
     "static/js/2.ddf88aa5.chunk.js",
-    "static/css/main.82f09375.chunk.css",
-    "static/js/main.727865b5.chunk.js"
+    "static/css/main.18d06654.chunk.css",
+    "static/js/main.972d86f0.chunk.js"
   ]
 }
