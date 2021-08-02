@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portafolio-V1/static/css/main.18d06654.chunk.css",
-    "main.js": "/portafolio-V1/static/js/main.972d86f0.chunk.js",
-    "main.js.map": "/portafolio-V1/static/js/main.972d86f0.chunk.js.map",
+    "main.css": "/portafolio-V1/static/css/main.2697d155.chunk.css",
+    "main.js": "/portafolio-V1/static/js/main.404daf13.chunk.js",
+    "main.js.map": "/portafolio-V1/static/js/main.404daf13.chunk.js.map",
     "runtime-main.js": "/portafolio-V1/static/js/runtime-main.ebfb0a45.js",
     "runtime-main.js.map": "/portafolio-V1/static/js/runtime-main.ebfb0a45.js.map",
     "static/css/2.b91f0a01.chunk.css": "/portafolio-V1/static/css/2.b91f0a01.chunk.css",
@@ -10,12 +10,12 @@
     "static/js/2.ddf88aa5.chunk.js.map": "/portafolio-V1/static/js/2.ddf88aa5.chunk.js.map",
     "index.html": "/portafolio-V1/index.html",
     "static/css/2.b91f0a01.chunk.css.map": "/portafolio-V1/static/css/2.b91f0a01.chunk.css.map",
-    "static/css/main.18d06654.chunk.css.map": "/portafolio-V1/static/css/main.18d06654.chunk.css.map",
+    "static/css/main.2697d155.chunk.css.map": "/portafolio-V1/static/css/main.2697d155.chunk.css.map",
     "static/js/2.ddf88aa5.chunk.js.LICENSE.txt": "/portafolio-V1/static/js/2.ddf88aa5.chunk.js.LICENSE.txt",
-    "static/media/1.7a95b08f.webp": "/portafolio-V1/static/media/1.7a95b08f.webp",
+    "static/media/1-weather.7a95b08f.webp": "/portafolio-V1/static/media/1-weather.7a95b08f.webp",
+    "static/media/2-crypto.ea35edf4.webp": "/portafolio-V1/static/media/2-crypto.ea35edf4.webp",
+    "static/media/3-video-station.5d5be902.webp": "/portafolio-V1/static/media/3-video-station.5d5be902.webp",
     "static/media/dummy1.ccce0bea.png": "/portafolio-V1/static/media/dummy1.ccce0bea.png",
-    "static/media/dummy2.4d7a1f84.png": "/portafolio-V1/static/media/dummy2.4d7a1f84.png",
-    "static/media/dummy3.717811d0.png": "/portafolio-V1/static/media/dummy3.717811d0.png",
     "static/media/juanFelipeDuarte.bcbc4482.pdf": "/portafolio-V1/static/media/juanFelipeDuarte.bcbc4482.pdf",
     "static/media/logo-bootstrap.c6f1166e.webp": "/portafolio-V1/static/media/logo-bootstrap.c6f1166e.webp",
     "static/media/logo-git.df9e2ce6.webp": "/portafolio-V1/static/media/logo-git.df9e2ce6.webp",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.ebfb0a45.js",
     "static/css/2.b91f0a01.chunk.css",
     "static/js/2.ddf88aa5.chunk.js",
-    "static/css/main.18d06654.chunk.css",
-    "static/js/main.972d86f0.chunk.js"
+    "static/css/main.2697d155.chunk.css",
+    "static/js/main.404daf13.chunk.js"
   ]
 }
