@@ -35,7 +35,8 @@
 }
 
 .img-project {
-	width: 100%;
+	max-width: 100%;
+	max-height: 450px;
 }
 
 .carousel .carousel__item--visible {
@@ -70,7 +71,7 @@
 
 .text-card {
 	padding-bottom: 15px;
-	// font-size: 1.3em;
+	line-height: inherit;
 }
 
 .carousel__actions {

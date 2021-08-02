@@ -1,30 +1,33 @@
-import logo from "../media/proyectos/1.webp";
-import logo1 from "../media/proyectos/dummy1.png";
-import logo2 from "../media/proyectos/dummy2.png";
-import logo3 from "../media/proyectos/dummy3.png";
+import logo from "../media/proyectos/1-weather.webp";
+import logo1 from "../media/proyectos/2-crypto.webp";
+import logo2 from "../media/proyectos/3-video-station.webp";
+import logo3 from "../media/proyectos/dummy1.png";
 
 export const SliderData = [
 	{
 		id: "0",
-		image: logo,
-		title: "Weather App ",
-		info: "Esta aplicación fue realizada, implementando la filosofía de diseño mobile first. React, Sass, Bootstrap, manejo de Api`s.",
-		alt: "Imagen del primer proyecto",
-		link: "https://elduartte.github.io/temperatura-app/",
+		image: logo1,
+		title: "BananaBit ",
+		info: "BananaBit es una app que te permite estar al tanto de los precios de las cryptos más importantes. Desarrollada con React, Sass implementando la filosofía de diseño mobile first y extrayendo información de Api`s.",
+		alt: "Imagen del segundo proyecto, BananaBeat",
+		link: "https://elduartte.github.io/Crypto-webApp/",
 	},
 	{
 		id: "1",
-		image: logo1,
-		title: "Segundo proyecto ",
-		info: "Esta aplicación fue realizada, implementando la filosofía de diseño mobile first. React, Sass, Bootstrap, manejo de Api`s.",
-		alt: "Imagen del segundo proyecto",
+		image: logo,
+		title: "Weather App ",
+		info: "Aplicación fue realizada, implementando la filosofía de diseño mobile first. React, Sass, Bootstrap, manejo de Api`s.",
+		alt: "Imagen del primer proyecto.",
+		link: "https://elduartte.github.io/temperatura-app/",
 	},
+
 	{
 		id: "2",
 		image: logo2,
-		title: "Tercer proyecto ",
-		info: "Esta aplicación fue realizada, implementando la filosofía de diseño mobile first. React, Sass, Bootstrap, manejo de Api`s.",
-		alt: "Imagen del tercer proyecto",
+		title: "Video station ",
+		info: "En Video station, hecho con React, Sass implementando la filosofía de diseño mobile first y extrayendo información de una Api desarrollada específicamente para este proyecto.",
+		alt: "Imagen del tercer proyecto, video station",
+		link: "https://elduartte.github.io/video-station/",
 	},
 	{
 		id: "3",
