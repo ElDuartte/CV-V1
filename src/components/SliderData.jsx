@@ -1,5 +1,5 @@
 import logo from "../media/proyectos/1-weather.webp";
-import logo1 from "../media/proyectos/2-crypto.webp";
+import logo1 from "../media/proyectos/2-cryptoo.webp";
 import logo2 from "../media/proyectos/3-video-station.webp";
 import logo3 from "../media/proyectos/dummy1.png";
 
@@ -10,7 +10,7 @@ export const SliderData = [
 		title: "BananaBit ",
 		info: "BananaBit es una app que te permite estar al tanto de los precios de las cryptos más importantes. Desarrollada con React, Sass implementando la filosofía de diseño mobile first y extrayendo información de Api`s.",
 		alt: "Imagen del segundo proyecto, BananaBeat",
-		link: "https://elduartte.github.io/Crypto-webApp/",
+		link: "https://elduartte.github.io/bananaBit/",
 	},
 	{
 		id: "1",
