@@ -8,7 +8,7 @@ export const SliderData = [
 		id: "0",
 		image: logo1,
 		title: "BananaBit ",
-		info: "BananaBit es una app que te permite estar al tanto de los precios de las cryptos más importantes. Desarrollada con React, Sass implementando la filosofía de diseño mobile first y extrayendo información de Api`s.",
+		info: "BananaBit es una pagina web que te permite estar al tanto de los precios de las cryptos más importantes. Desarrollada con React, Sass implementando la filosofía de diseño mobile first y extrayendo información de Api.",
 		alt: "Imagen del segundo proyecto, BananaBeat",
 		link: "https://elduartte.github.io/bananaBit/",
 	},
@@ -16,7 +16,7 @@ export const SliderData = [
 		id: "1",
 		image: logo,
 		title: "Weather App ",
-		info: "Aplicación fue realizada, implementando la filosofía de diseño mobile first. React, Sass, Bootstrap, manejo de Api`s.",
+		info: "Aplicación fue realizada, implementando la filosofía de diseño mobile first. React, Sass, Bootstrap, manejo de Api.",
 		alt: "Imagen del primer proyecto.",
 		link: "https://elduartte.github.io/temperatura-app/",
 	},
@@ -32,8 +32,8 @@ export const SliderData = [
 	{
 		id: "3",
 		image: logo3,
-		title: "Cuarto proyecto ",
-		info: "Esta aplicación fue realizada, implementando la filosofía de diseño mobile first. React, Sass, Bootstrap, manejo de Api`s.",
+		title: "Próximamente ",
+		info: "",
 		alt: "Imagen del tercer proyecto",
 	},
 ];
