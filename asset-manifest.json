@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portafolio-V1/static/css/main.2697d155.chunk.css",
-    "main.js": "/portafolio-V1/static/js/main.d840c63c.chunk.js",
-    "main.js.map": "/portafolio-V1/static/js/main.d840c63c.chunk.js.map",
+    "main.js": "/portafolio-V1/static/js/main.f780d675.chunk.js",
+    "main.js.map": "/portafolio-V1/static/js/main.f780d675.chunk.js.map",
     "runtime-main.js": "/portafolio-V1/static/js/runtime-main.ebfb0a45.js",
     "runtime-main.js.map": "/portafolio-V1/static/js/runtime-main.ebfb0a45.js.map",
     "static/css/2.b91f0a01.chunk.css": "/portafolio-V1/static/css/2.b91f0a01.chunk.css",
@@ -13,10 +13,10 @@
     "static/css/main.2697d155.chunk.css.map": "/portafolio-V1/static/css/main.2697d155.chunk.css.map",
     "static/js/2.ddf88aa5.chunk.js.LICENSE.txt": "/portafolio-V1/static/js/2.ddf88aa5.chunk.js.LICENSE.txt",
     "static/media/1-weather.7a95b08f.webp": "/portafolio-V1/static/media/1-weather.7a95b08f.webp",
+    "static/media/1_Juan_Felipe_Duarte_-_Front-end.aa35ee59.pdf": "/portafolio-V1/static/media/1_Juan_Felipe_Duarte_-_Front-end.aa35ee59.pdf",
     "static/media/2-cryptoo.aadc5052.webp": "/portafolio-V1/static/media/2-cryptoo.aadc5052.webp",
     "static/media/3-video-station.5d5be902.webp": "/portafolio-V1/static/media/3-video-station.5d5be902.webp",
     "static/media/dummy1.aee4d115.png": "/portafolio-V1/static/media/dummy1.aee4d115.png",
-    "static/media/juanFelipeDuarte.bcbc4482.pdf": "/portafolio-V1/static/media/juanFelipeDuarte.bcbc4482.pdf",
     "static/media/logo-bootstrap.c6f1166e.webp": "/portafolio-V1/static/media/logo-bootstrap.c6f1166e.webp",
     "static/media/logo-git.df9e2ce6.webp": "/portafolio-V1/static/media/logo-git.df9e2ce6.webp",
     "static/media/logo-html5.24743e14.webp": "/portafolio-V1/static/media/logo-html5.24743e14.webp",
@@ -29,6 +29,6 @@
     "static/css/2.b91f0a01.chunk.css",
     "static/js/2.ddf88aa5.chunk.js",
     "static/css/main.2697d155.chunk.css",
-    "static/js/main.d840c63c.chunk.js"
+    "static/js/main.f780d675.chunk.js"
   ]
 }
