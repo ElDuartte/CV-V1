@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portafolio-V1/static/css/main.daf2b0ed.chunk.css",
-    "main.js": "/portafolio-V1/static/js/main.58e32e7e.chunk.js",
-    "main.js.map": "/portafolio-V1/static/js/main.58e32e7e.chunk.js.map",
+    "main.js": "/portafolio-V1/static/js/main.0e890cce.chunk.js",
+    "main.js.map": "/portafolio-V1/static/js/main.0e890cce.chunk.js.map",
     "runtime-main.js": "/portafolio-V1/static/js/runtime-main.c835558d.js",
     "runtime-main.js.map": "/portafolio-V1/static/js/runtime-main.c835558d.js.map",
     "static/css/2.b91f0a01.chunk.css": "/portafolio-V1/static/css/2.b91f0a01.chunk.css",
@@ -12,7 +12,7 @@
     "static/css/2.b91f0a01.chunk.css.map": "/portafolio-V1/static/css/2.b91f0a01.chunk.css.map",
     "static/css/main.daf2b0ed.chunk.css.map": "/portafolio-V1/static/css/main.daf2b0ed.chunk.css.map",
     "static/js/2.4f0d8feb.chunk.js.LICENSE.txt": "/portafolio-V1/static/js/2.4f0d8feb.chunk.js.LICENSE.txt",
-    "static/media/1-weather.c4572c84.webp": "/portafolio-V1/static/media/1-weather.c4572c84.webp",
+    "static/media/1-weather.8b5cbc2b.webp": "/portafolio-V1/static/media/1-weather.8b5cbc2b.webp",
     "static/media/1_Juan_Felipe_Duarte_-_Front-end.8f0aec37.pdf": "/portafolio-V1/static/media/1_Juan_Felipe_Duarte_-_Front-end.8f0aec37.pdf",
     "static/media/2-cryptoo.aadc5052.webp": "/portafolio-V1/static/media/2-cryptoo.aadc5052.webp",
     "static/media/3-video-station.5d5be902.webp": "/portafolio-V1/static/media/3-video-station.5d5be902.webp",
@@ -29,6 +29,6 @@
     "static/css/2.b91f0a01.chunk.css",
     "static/js/2.4f0d8feb.chunk.js",
     "static/css/main.daf2b0ed.chunk.css",
-    "static/js/main.58e32e7e.chunk.js"
+    "static/js/main.0e890cce.chunk.js"
   ]
 }
