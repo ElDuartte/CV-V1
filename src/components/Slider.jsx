@@ -36,6 +36,7 @@ const Slider = ({ slides }) => {
 											src={slide.image}
 											alt={slide.alt}
 											className="img-project"
+											title={slide.titleImg}
 										/>
 									</div>
 									<div className="container-text-card">
