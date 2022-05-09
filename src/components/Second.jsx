@@ -1,6 +1,6 @@
 import React from "react";
 
-import pdf from "../docs/1_Juan_Felipe_Duarte_-_Front-end.pdf";
+import pdf from "../docs/Juan_Felipe_Duarte.pdf";
 const About = () => {
 	return (
 		<main id="about">
