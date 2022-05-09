@@ -32,12 +32,12 @@ export const SliderData = [
 		link: "https://elduartte.github.io/video-station/",
 		titleImg: "video station",
 	},
-	{
-		id: "3",
-		image: logo3,
-		title: "Próximamente ",
-		info: "",
-		alt: "Imagen del tercer proyecto",
-		titleImg: "Próximamente",
-	},
+	// {
+	// 	id: "3",
+	// 	image: logo3,
+	// 	title: "Próximamente ",
+	// 	info: "",
+	// 	alt: "Imagen del tercer proyecto",
+	// 	titleImg: "Próximamente",
+	// },
 ];
