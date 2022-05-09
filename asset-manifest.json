@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/portafolio-V1/static/css/main.daf2b0ed.chunk.css",
-    "main.js": "/portafolio-V1/static/js/main.e9ce5835.chunk.js",
-    "main.js.map": "/portafolio-V1/static/js/main.e9ce5835.chunk.js.map",
+    "main.js": "/portafolio-V1/static/js/main.17781a93.chunk.js",
+    "main.js.map": "/portafolio-V1/static/js/main.17781a93.chunk.js.map",
     "runtime-main.js": "/portafolio-V1/static/js/runtime-main.c835558d.js",
     "runtime-main.js.map": "/portafolio-V1/static/js/runtime-main.c835558d.js.map",
-    "static/css/2.b91f0a01.chunk.css": "/portafolio-V1/static/css/2.b91f0a01.chunk.css",
+    "static/css/2.ab75b8d7.chunk.css": "/portafolio-V1/static/css/2.ab75b8d7.chunk.css",
     "static/js/2.4f0d8feb.chunk.js": "/portafolio-V1/static/js/2.4f0d8feb.chunk.js",
     "static/js/2.4f0d8feb.chunk.js.map": "/portafolio-V1/static/js/2.4f0d8feb.chunk.js.map",
     "index.html": "/portafolio-V1/index.html",
-    "static/css/2.b91f0a01.chunk.css.map": "/portafolio-V1/static/css/2.b91f0a01.chunk.css.map",
+    "static/css/2.ab75b8d7.chunk.css.map": "/portafolio-V1/static/css/2.ab75b8d7.chunk.css.map",
     "static/css/main.daf2b0ed.chunk.css.map": "/portafolio-V1/static/css/main.daf2b0ed.chunk.css.map",
     "static/js/2.4f0d8feb.chunk.js.LICENSE.txt": "/portafolio-V1/static/js/2.4f0d8feb.chunk.js.LICENSE.txt",
     "static/media/1-weather.8b5cbc2b.webp": "/portafolio-V1/static/media/1-weather.8b5cbc2b.webp",
-    "static/media/1_Juan_Felipe_Duarte_-_Front-end.545a5abd.pdf": "/portafolio-V1/static/media/1_Juan_Felipe_Duarte_-_Front-end.545a5abd.pdf",
     "static/media/2-cryptoo.aadc5052.webp": "/portafolio-V1/static/media/2-cryptoo.aadc5052.webp",
     "static/media/3-video-station.5d5be902.webp": "/portafolio-V1/static/media/3-video-station.5d5be902.webp",
+    "static/media/Juan_Felipe_Duarte.d33b8ee2.pdf": "/portafolio-V1/static/media/Juan_Felipe_Duarte.d33b8ee2.pdf",
     "static/media/dummy1.aee4d115.png": "/portafolio-V1/static/media/dummy1.aee4d115.png",
     "static/media/logo-bootstrap.c6f1166e.webp": "/portafolio-V1/static/media/logo-bootstrap.c6f1166e.webp",
     "static/media/logo-git.df9e2ce6.webp": "/portafolio-V1/static/media/logo-git.df9e2ce6.webp",
@@ -26,9 +26,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c835558d.js",
-    "static/css/2.b91f0a01.chunk.css",
+    "static/css/2.ab75b8d7.chunk.css",
     "static/js/2.4f0d8feb.chunk.js",
     "static/css/main.daf2b0ed.chunk.css",
-    "static/js/main.e9ce5835.chunk.js"
+    "static/js/main.17781a93.chunk.js"
   ]
 }
